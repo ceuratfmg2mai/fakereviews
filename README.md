@@ -23,7 +23,9 @@ El desarrollo técnico de este TFM incloyó varias estrategias de selección, ex
 
 [2] Customer Review Analysis and Identifying Spam Reviews, acceso: marzo 20, 2025, https://ijarsct.co.in/A8908.pdf
 
-[3] Econpapers Sorry!, acceso: marzo 20, 2025, https://econpapers.repec.org/RePEc:eee:joreco:v:64:y:2022:i:c:s0969698921003374
+[3] Econpapers, https://econpapers.repec.org/RePEc:eee:joreco:v:64:y:2022:i:c:s0969698921003374
+
+[4] DataSet seleccionado de reseñas: https://www.kaggle.com/datasets/aagudelom/reviews-dataset
 
 ## Gracias:
 
