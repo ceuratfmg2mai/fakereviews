@@ -1,0 +1,1724 @@
+{
+    "Beauty & Spas, Nail Salons": {
+      "fake_reviews": [
+        {
+          "review_text": "Absolutely divine! From the moment you walk in, you feel transported to another world. The attention to detail is exquisite, the staff seems to read your mind. I got a manicure and pedicure, and the result is simply perfect, worthy of a celebrity! They use exclusive products you can't find anywhere else. Definitely the best spa in the city, look no further! I'll be back every single week! It's an investment in happiness! I recommend it wholeheartedly to all my friends and family! Thank you for existing!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 1550,
+          "average_stars_user": 4.8,
+          "review_count_user": 65,
+          "categories": ["Beauty & Spas", "Nail Salons"]
+        },
+        {
+          "review_text": "A complete disappointment. I booked a relaxing massage, and it was anything but. The table was uncomfortable, the music was way too loud, and the masseuse seemed rushed. I didn't feel any professionalism. Plus, they tried to aggressively sell me overpriced products at the end. The place wasn't as clean as I expected. I don't understand the good reviews; it must be misleading advertising. I wasted my time and money. I won't be back even if they paid me. Avoid this place at all costs if you value your well-being!",
+          "star": 1,
+          "stars_business": 1.6,
+          "review_count_business": 480,
+          "average_stars_user": 1.3,
+          "review_count_user": 9,
+          "categories": ["Beauty & Spas", "Nail Salons"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "I went for a gel manicure. The salon was clean and well-decorated, with a calm atmosphere. Ana attended me; she was very friendly and professional, although the process took a bit longer than they initially told me. The color turned out very nice and well-applied, but the next day I noticed a small imperfection on my right thumb. The price seemed fair for the quality and the area. I'll probably go back, but I'll ask them to double-check the finish before I leave.",
+          "star": 4,
+          "stars_business": 4.3,
+          "review_count_business": 1100,
+          "average_stars_user": 4.1,
+          "review_count_user": 28,
+          "categories": ["Beauty & Spas", "Nail Salons"]
+        },
+        {
+          "review_text": "I needed a deep tissue massage for back strain. I found this spa near work. Booking online was easy. The ambiance was pleasant, with dim lighting and soft music. The therapist, David, was very professional, asked about my issues, and adjusted the pressure perfectly. I really felt relief when I left. The only 'but' is that the price is a bit high compared to other places, but the quality of the massage was good. I'd recommend it for a special occasion or if you need good treatment.",
+          "star": 4,
+          "stars_business": 4.5,
+          "review_count_business": 950,
+          "average_stars_user": 4.4,
+          "review_count_user": 15,
+          "categories": ["Beauty & Spas", "Nail Salons"]
+        }
+      ]
+    },
+    "Event Planning & Services, Hotels & Travel": {
+      "fake_reviews": [
+        {
+          "review_text": "They organized our corporate event, and it was a RESOUNDING success! Everything went perfectly, exceeding our highest expectations. The coordination was flawless, the decoration spectacular, and the catering exquisite. Our clients were impressed. They are true professionals who take care of every last detail. The best investment we've made! If you want your event to be unforgettable and flawless, they are the only option. Mandatory hiring for excellence!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 750,
+          "average_stars_user": 4.9,
+          "review_count_user": 42,
+          "categories": ["Event Planning & Services", "Hotels & Travel"]
+        },
+        {
+          "review_text": "Total disaster of an organized trip. Low-category hotels that didn't match what was booked, flights with endless layovers, and guides who didn't show up. Communication with the agency during the trip was impossible; we felt completely abandoned. They promised a luxury trip, and it was a nightmare. They ruined our vacation. Don't fall for their misleading advertising. Never again! A complete scam, avoid them at all costs if you don't want to waste your money.",
+          "star": 1,
+          "stars_business": 1.4,
+          "review_count_business": 320,
+          "average_stars_user": 1.2,
+          "review_count_user": 6,
+          "categories": ["Event Planning & Services", "Hotels & Travel"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "We hired their services for planning our wedding. They were very helpful in finding vendors and managing contracts, which relieved a lot of stress. Our assigned coordinator, Marta, was very organized. On the wedding day, everything flowed quite well, although there was a slight delay with the arrival of the bridal car. The recommended catering was excellent. Overall, we were happy with the service, although communication could have been a bit more proactive in the preceding weeks.",
+          "star": 4,
+          "stars_business": 4.4,
+          "review_count_business": 580,
+          "average_stars_user": 4.3,
+          "review_count_user": 19,
+          "categories": ["Event Planning & Services", "Hotels & Travel"]
+        },
+        {
+          "review_text": "We booked a weekend package through their website that included a hotel and theme park tickets. The booking process was simple. The hotel was well-located, but the facilities were somewhat outdated, especially the bathroom. Breakfast was basic. The park tickets worked without any issues. The value for money was acceptable, but not exceptional. It's a convenient option if you're looking for something functional and don't mind a lack of luxury, but expectations should be adjusted to the price paid.",
+          "star": 3,
+          "stars_business": 3.7,
+          "review_count_business": 610,
+          "average_stars_user": 3.5,
+          "review_count_user": 11,
+          "categories": ["Event Planning & Services", "Hotels & Travel"]
+        }
+      ]
+    },
+    "Pizza, Restaurants": {
+      "fake_reviews": [
+        {
+          "review_text": "The best pizza I've ever had in my life! Incredibly delicious! The crust is perfect, crispy on the outside and tender on the inside. The ingredients are top-notch, you can tell they're fresh. The flavor is spectacular, an explosion in your mouth. Plus, the service is super fast and the staff is extremely friendly. A 10/10 in every aspect! I can't wait to come back! Highly recommended! If you love pizza, this is your paradise! You won't regret it; it's a surefire win!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 1850,
+          "average_stars_user": 4.7,
+          "review_count_user": 88,
+          "categories": ["Pizza", "Restaurants"]
+        },
+        {
+          "review_text": "Awful. We ordered two pizzas, and it took over an hour for them to arrive. When they finally got here, they were cold, and the crust was like rubber. The ingredients were scarce and low quality. The cheese was tasteless, and the tomato sauce was sour. A complete rip-off. The waiter was quite rude when we complained. I don't understand how this place has good ratings. We will never return and advise everyone not to waste their money here. There are thousands of better pizzerias nearby. What a huge disappointment!",
+          "star": 1,
+          "stars_business": 1.9,
+          "review_count_business": 720,
+          "average_stars_user": 1.5,
+          "review_count_user": 14,
+          "categories": ["Pizza", "Restaurants"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "We ordered a barbecue pizza and a four-cheese pizza for takeout. The crust was thin and well-cooked. The barbecue had a good balance between sauce and ingredients, although perhaps a bit too sweet for my personal taste. The four-cheese was very flavorful; you could taste the different cheeses. The waiting time was about 25 minutes, which is normal for a Friday night. The place is small, more focused on takeout or delivery. A good option for a quick dinner at home.",
+          "star": 4,
+          "stars_business": 4.2,
+          "review_count_business": 1400,
+          "average_stars_user": 4.0,
+          "review_count_user": 40,
+          "categories": ["Pizza", "Restaurants"]
+        },
+        {
+          "review_text": "We went for dinner as a couple. The restaurant has simple but pleasant decor. We ordered a diavola pizza and a vegetarian one. The diavola was quite spicy, as it should be, but I found it a bit dry. The vegetarian had plenty of fresh vegetables, but the base was a little soggy in the center. The service was adequate, although a bit slow bringing the bill. The price-quality ratio is acceptable, nothing more. It's okay in a pinch, but it wouldn't be my first choice.",
+          "star": 3,
+          "stars_business": 3.8,
+          "review_count_business": 1150,
+          "average_stars_user": 3.6,
+          "review_count_user": 25,
+          "categories": ["Pizza", "Restaurants"]
+        }
+      ]
+    },
+    "Mexican, Restaurants": {
+      "fake_reviews": [
+        {
+          "review_text": "Authentic Mexican food like being in Cancun! Everything is spectacular! The tacos al pastor are the best I've ever tried, incredible! The margaritas are on another level. The atmosphere is super festive, and the staff is charming. They make you feel right at home! No flaws! If you want Mexico without leaving the city, this is your place! We will come back a thousand times! Book now because it's always full! A hidden gem everyone must discover!",
+          "star": 5,
+          "stars_business": 4.7,
+          "review_count_business": 1300,
+          "average_stars_user": 4.8,
+          "review_count_user": 70,
+          "categories": ["Mexican", "Restaurants"]
+        },
+        {
+          "review_text": "Nothing like Mexico. The food is bland, greasy, and overpriced for what they offer. I ordered nachos, and they were store-bought chips with horrible processed cheese sauce. The tacos tasted like nothing. The service was terrible; they took forever to serve us and got the order wrong. The place is noisy and overwhelming. I don't know where they get the good reviews. A dreadful experience that I wouldn't recommend to anyone. There are much better and more authentic places. Don't waste your money here!",
+          "star": 1,
+          "stars_business": 2.0,
+          "review_count_business": 650,
+          "average_stars_user": 1.7,
+          "review_count_user": 10,
+          "categories": ["Mexican", "Restaurants"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "A group of friends went, and we ordered several dishes to share: guacamole, cochinita pibil, carnitas tacos, and quesadillas. The guacamole was very good, fresh, and came with homemade tortilla chips. The cochinita pibil was tender and flavorful, although perhaps it needed a bit more achiote spice. The carnitas tacos were decent. The quesadillas were a bit simple. Service was fast and attentive, and the atmosphere was lively. The micheladas were well-prepared. Good option for a casual dinner.",
+          "star": 4,
+          "stars_business": 4.1,
+          "review_count_business": 980,
+          "average_stars_user": 4.0,
+          "review_count_user": 35,
+          "categories": ["Mexican", "Restaurants"]
+        },
+        {
+          "review_text": "I wanted to try this Mexican place I had heard about. I ordered green enchiladas, and my partner had chicken fajitas. My enchiladas tasted okay, but the sauce was a bit watery, and the chicken slightly dry. The fajitas were better, with juicy chicken and plenty of vegetables, although the tortillas were store-bought and arrived a bit cold. The place was quite full and very noisy; it was hard to hold a conversation. The price is mid-range to high. It wasn't bad, but I wasn't overly impressed either.",
+          "star": 3,
+          "stars_business": 3.6,
+          "review_count_business": 820,
+          "average_stars_user": 3.5,
+          "review_count_user": 18,
+          "categories": ["Mexican", "Restaurants"]
+        }
+      ]
+    },
+    "Apartments, Home Services, Real Estate": {
+      "fake_reviews": [
+        {
+          "review_text": "Found my dream home thanks to them! The real estate agent was incredibly attentive, perfectly understood my needs, and showed me wonderful properties. The buying process was super fast and without any hiccups. Top-level professionalism and efficiency! I'm thrilled with my new home! I recommend this agency to everyone! They are the best in the market without a doubt! Look no further; they will make it happen!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 450,
+          "average_stars_user": 4.9,
+          "review_count_user": 21,
+          "categories": ["Apartments", "Home Services", "Real Estate"]
+        },
+        {
+          "review_text": "Terrible renovation service. They started the work late, the finishes are sloppy, and they left everything dirty. The initial budget skyrocketed without justification. The workers were unprofessional and would disappear for days. Now I have to hire another company to fix their disasters. A horrible and stressful experience. Do not hire them under any circumstances if you don't want serious problems. They are incompetent and unreliable! Money down the drain!",
+          "star": 1,
+          "stars_business": 1.5,
+          "review_count_business": 180,
+          "average_stars_user": 1.1,
+          "review_count_user": 3,
+          "categories": ["Apartments", "Home Services", "Real Estate"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "I contacted this real estate agency to sell my apartment. The initial valuation was realistic and in line with the market. The assigned agent, Carlos, was proactive in organizing viewings and kept me regularly informed. They handled the photography and online advertising well. The apartment sold in about three months, within the expected timeframe. The commission was standard for the sector. There was a minor issue with the documentation for the notary that was resolved in time. Overall, a professional and efficient service.",
+          "star": 4,
+          "stars_business": 4.2,
+          "review_count_business": 310,
+          "average_stars_user": 4.0,
+          "review_count_user": 12,
+          "categories": ["Apartments", "Home Services", "Real Estate"]
+        },
+        {
+          "review_text": "I hired their weekly cleaning service for my apartment. The first few weeks were fine; the cleaner was punctual and did a good basic job. However, the quality has recently declined; it seems they clean more superficially, and once they arrived late without notice. I've had to go over some areas after they left. The price is competitive, but I'm considering looking for another option if the service consistency doesn't improve. Communication with the office about this was okay.",
+          "star": 3,
+          "stars_business": 3.5,
+          "review_count_business": 250,
+          "average_stars_user": 3.3,
+          "review_count_user": 8,
+          "categories": ["Apartments", "Home Services", "Real Estate"]
+        }
+      ]
+    },
+    "Chinese, Restaurants": {
+      "fake_reviews": [
+        {
+          "review_text": "Incredible! The most authentic and delicious Chinese food I've tried outside of Asia! Each dish is a masterpiece, full of flavor and made with top-quality ingredients. The Peking duck is simply sublime, crispy and juicy. The service is impeccable, fast, and super attentive. The ambiance transports you straight to China! A 10/10 restaurant! My undisputed favorite! Reservations essential because it's always packed! You can't miss it!",
+          "star": 5,
+          "stars_business": 4.6,
+          "review_count_business": 915,
+          "average_stars_user": 4.8,
+          "review_count_user": 22,
+          "categories": ["Chinese", "Restaurants"]
+        },
+        {
+          "review_text": "Absolute disappointment. The food was greasy, bland, and seemed reheated. We ordered the three-delicacy rice, and it was a tasteless lump. The lemon chicken was pure oily batter with no hint of lemon. The place was neglected, and the service was terrible, slow, and grumpy. I don't understand how it has customers. It was a horrible and overpriced experience for what we ate. We will never return nor recommend it to anyone. Avoid it!",
+          "star": 1,
+          "stars_business": 1.9,
+          "review_count_business": 350,
+          "average_stars_user": 1.5,
+          "review_count_user": 5,
+          "categories": ["Chinese", "Restaurants"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "We ordered several dishes for takeout: spring rolls, sweet and sour pork, beef with oyster sauce, and fried rice. The spring rolls were crispy and not too oily. The sweet and sour pork had a good flavor balance, although the sauce was a bit thick. The beef was tender and tasty. The rice was okay. The portions were generous, and the price was reasonable. It arrived hot and within the estimated time. A good option for Chinese food delivery in the area.",
+          "star": 4,
+          "stars_business": 4.1,
+          "review_count_business": 670,
+          "average_stars_user": 4.0,
+          "review_count_user": 31,
+          "categories": ["Chinese", "Restaurants"]
+        },
+        {
+          "review_text": "A group of friends went for dinner. The restaurant is large, although the decor needs updating. We tried the special weekend set menu. The hot and sour soup was good. For the main course, the chicken with almonds was fine, but the beef with bamboo and mushrooms was somewhat bland. The desserts were basic (ice cream or flan). The service was fast but a bit impersonal. It serves its purpose as a neighborhood Chinese restaurant without great pretensions.",
+          "star": 3,
+          "stars_business": 3.5,
+          "review_count_business": 510,
+          "average_stars_user": 3.2,
+          "review_count_user": 12,
+          "categories": ["Chinese", "Restaurants"]
+        }
+      ]
+    },
+    "Coffee & Tea, Food": {
+      "fake_reviews": [
+        {
+          "review_text": "Paradise for coffee lovers! They have the best specialty coffee in the city, prepared with incredible care. Every cup is a unique sensory experience. Plus, the homemade pastries are spectacular—everything is delicious! The atmosphere is super cozy, perfect for relaxing or working. The staff is charming and knows so much about coffee. My favorite spot! Five stars isn't enough! Absolutely essential!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 1105,
+          "average_stars_user": 4.7,
+          "review_count_user": 45,
+          "categories": ["Coffee & Tea", "Food"]
+        },
+        {
+          "review_text": "Horrible coffee, watery and burnt. It tasted awful. I ordered a cake, and it was dry, probably days old. The place is tiny, uncomfortable, and very noisy. The service was slow, and the waiter was quite unfriendly. On top of that, it's overpriced for the garbage they serve. I don't understand its fame. A waste of time and money. I'll never go back, nor do I recommend it. There are thousands of better cafes!",
+          "star": 1,
+          "stars_business": 2.3,
+          "review_count_business": 288,
+          "average_stars_user": 1.8,
+          "review_count_user": 3,
+          "categories": ["Coffee & Tea", "Food"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "Good place for specialty coffee. I tried a V60, and it was well-extracted, with interesting notes. The barista seemed knowledgeable about the product. I also ordered toast with tomato and oil, simple but with good bread. The place is small but charming, although it can be hard to find a seat during peak hours. Prices are slightly higher than a normal cafe but justified by the coffee quality. Ideal for a quiet break.",
+          "star": 4,
+          "stars_business": 4.4,
+          "review_count_business": 720,
+          "average_stars_user": 4.1,
+          "review_count_user": 18,
+          "categories": ["Coffee & Tea", "Food"]
+        },
+        {
+          "review_text": "It's a chain coffee shop, so you know what to expect. I ordered a cappuccino and a chocolate muffin. The coffee was okay, nothing special. The muffin was good, albeit a bit industrial. The place is spacious and functional, good for a quick meeting or if you need wifi. The service was fast but impersonal. Prices are standard for this type of establishment. It serves its purpose, but it's not a place with special charm or exceptional coffee.",
+          "star": 3,
+          "stars_business": 3.6,
+          "review_count_business": 1250,
+          "average_stars_user": 3.0,
+          "review_count_user": 9,
+          "categories": ["Coffee & Tea", "Food"]
+        }
+      ]
+    },
+    "Auto Repair, Automotive": {
+      "fake_reviews": [
+        {
+          "review_text": "The best auto repair shop ever! Honest, fast, and super professional! They fixed my car in record time and at an incredible price. They explained everything in detail and treated me wonderfully. It looks like new! Total trust! I won't take my car anywhere else! They are geniuses! Highly recommended 1000%! If you have a car problem, they are the definitive solution! Thank you for your excellent work!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 650,
+          "average_stars_user": 5.0,
+          "review_count_user": 2,
+          "categories": ["Auto Repair", "Automotive"]
+        },
+        {
+          "review_text": "A total scam! I took the car for a check-up, and they invented a thousand non-existent problems. The quote was exorbitant. They clearly tried to rip me off. They are incompetent and thieves. The car came out worse than it went in. Be careful! Don't trust them. Customer service is terrible, and they offer no warranty. The worst workshop experience! Reportable! Avoid this place at all costs!",
+          "star": 1,
+          "stars_business": 1.5,
+          "review_count_business": 180,
+          "average_stars_user": 1.1,
+          "review_count_user": 7,
+          "categories": ["Auto Repair", "Automotive"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "I took the car for an oil and filter change. They gave me an appointment quickly. The price was what they had quoted over the phone, no surprises. The work was done within the estimated time. The reception staff was friendly. The facilities seemed clean and orderly. I can't comment on more complex repairs, but for basic maintenance, they seemed correct and professional. I would return for future check-ups.",
+          "star": 4,
+          "stars_business": 4.3,
+          "review_count_business": 410,
+          "average_stars_user": 4.2,
+          "review_count_user": 11,
+          "categories": ["Auto Repair", "Automotive"]
+        },
+        {
+          "review_text": "I had to replace the clutch and got a quote here. It was competitive compared to other workshops. The repair took one day longer than initially planned, which was inconvenient. The car runs fine now; the work seems well done. However, communication could improve; I had to call myself to find out when it would be ready. The final price was as agreed. Correct service, but room for improvement in deadlines and communication.",
+          "star": 3,
+          "stars_business": 3.7,
+          "review_count_business": 325,
+          "average_stars_user": 3.5,
+          "review_count_user": 4,
+          "categories": ["Auto Repair", "Automotive"]
+        }
+      ]
+    },
+    "Beauty & Spas, Hair Salons": {
+      "fake_reviews": [
+        {
+          "review_text": "Spectacular beauty salon! They gave me an incredible makeover, exactly what I wanted! The stylist is a true artist, perfectly capturing my idea. They use top-quality products, and the facilities are luxurious. The treatment is exquisite; they make you feel like a queen. I left feeling renewed and happy! The best salon I've ever been to! Highly recommended! Don't hesitate, book an appointment now!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 780,
+          "average_stars_user": 4.9,
+          "review_count_user": 33,
+          "categories": ["Beauty & Spas", "Hair Salons"]
+        },
+        {
+          "review_text": "What a disaster! I went for a haircut, and they butchered it. They didn't listen to anything I asked for. The color turned out horrible, nothing like the sample. The staff was rude and unprofessional. The place was dirty and neglected. I left crying and had to go somewhere else to get it fixed. A traumatic experience! Don't go if you value your hair! Terrible service and zero quality!",
+          "star": 1,
+          "stars_business": 1.7,
+          "review_count_business": 215,
+          "average_stars_user": 1.2,
+          "review_count_user": 1,
+          "categories": ["Beauty & Spas", "Hair Salons"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "I went for balayage highlights. The hairdresser who attended me, Lucia, was very professional and advised me well on the shade. The result was natural and beautiful; I'm happy with the color. The process was long, as expected for this type of work. The salon is modern and pleasant. The price is somewhat high, but consistent with the quality of service and products used (they used Olaplex). I will probably return for maintenance.",
+          "star": 4,
+          "stars_business": 4.5,
+          "review_count_business": 550,
+          "average_stars_user": 4.3,
+          "review_count_user": 8,
+          "categories": ["Beauty & Spas", "Hair Salons"]
+        },
+        {
+          "review_text": "I needed a quick haircut and popped into this neighborhood salon. They took me without an appointment, which was convenient. The cut was basic (trimming ends and shaping), correct but nothing special. The hairdresser was friendly but not very chatty. The price was economical. The facilities are simple. It served its purpose for a quick and cheap cut, but I wouldn't go for a makeover or a more elaborate service.",
+          "star": 3,
+          "stars_business": 3.8,
+          "review_count_business": 310,
+          "average_stars_user": 3.6,
+          "review_count_user": 14,
+          "categories": ["Beauty & Spas", "Hair Salons"]
+        }
+      ]
+    },
+    "Burgers, Fast Food, Restaurants": {
+      "fake_reviews": [
+        {
+          "review_text": "The best burgers in the universe! Top-quality meat, incredible artisan buns, and spectacular flavor combinations! Every bite is an explosion of pleasure! The homemade fries are addictive. The service is super fast, and the staff is very cool. The place has a great vibe! There's no burger joint like it! Five stars, and only because I can't give more! You have to try them!",
+          "star": 5,
+          "stars_business": 4.7,
+          "review_count_business": 1450,
+          "average_stars_user": 4.6,
+          "review_count_user": 55,
+          "categories": ["Burgers", "Fast Food", "Restaurants"]
+        },
+        {
+          "review_text": "Terrible burgers. Dry, overcooked meat, chewy industrial bun, and low-quality ingredients. The fries were cold and oily. They took forever to serve us and then got the order wrong. The place was dirty and cramped. A rip-off for what they offer. I don't understand the hype. A dreadful experience. We won't be back, nor will we recommend it. Flee this place!",
+          "star": 1,
+          "stars_business": 2.0,
+          "review_count_business": 680,
+          "average_stars_user": 2.1,
+          "review_count_user": 6,
+          "categories": ["Burgers", "Fast Food", "Restaurants"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "We tried the house special burger and a classic with cheese and bacon. The meat was good, cooked as requested, and seemed of acceptable quality. The brioche-style bun held up well. The homemade fries were crispy. The place has modern decor and an informal atmosphere. The service was correct and relatively fast for a weekend. A good option for a gourmet burger without exorbitant prices.",
+          "star": 4,
+          "stars_business": 4.2,
+          "review_count_business": 1150,
+          "average_stars_user": 4.0,
+          "review_count_user": 28,
+          "categories": ["Burgers", "Fast Food", "Restaurants"]
+        },
+        {
+          "review_text": "It's a fast-food chain, so it delivers what's expected. We ordered a cheeseburger meal with fries and a soda. The burger was standard, medium-sized, decent flavor. The fries were hot. Service at the counter was quick. The place was clean. Ideal for a quick and cheap meal if you don't have much time or are looking for something familiar. No surprises, good or bad. It serves its purpose.",
+          "star": 3,
+          "stars_business": 3.4,
+          "review_count_business": 1380,
+          "average_stars_user": 3.1,
+          "review_count_user": 10,
+          "categories": ["Burgers", "Fast Food", "Restaurants"]
+        }
+      ]
+    },
+    "Event Planning & Services, Automotive": {
+      "fake_reviews": [
+        {
+          "review_text": "They organized the launch of our new car model, and it was an absolute success! Flawless! They took care of every detail, from logistics to staging. The staff was incredibly professional and efficient. Our guests were amazed. They are the best in automotive events! They exceeded all expectations! Mandatory hiring for a high-level event! Success guaranteed!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 150,
+          "average_stars_user": 4.8,
+          "review_count_user": 4,
+          "categories": ["Event Planning & Services", "Automotive"]
+        },
+        {
+          "review_text": "We hired their services for a classic car meet, and it was a disaster. Poor organization, lack of permits, incompetent staff... Everything went wrong. There were parking problems, the catering was scarce and low quality. An embarrassment. They made us look terrible in front of the participants. Never again! Avoid this company if you don't want to waste your money and ruin your event!",
+          "star": 1,
+          "stars_business": 1.8,
+          "review_count_business": 65,
+          "average_stars_user": 2.0,
+          "review_count_user": 2,
+          "categories": ["Event Planning & Services", "Automotive"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "We used their services to rent several high-end vehicles for a commercial shoot. They were very efficient in managing the fleet, and the vehicles were in perfect condition. The support staff during the shoot was professional and flexible with last-minute changes. The only drawback was that one of the requested models was unavailable, and they had to offer a similar alternative. Overall, we were satisfied with their professionalism.",
+          "star": 4,
+          "stars_business": 4.5,
+          "review_count_business": 95,
+          "average_stars_user": 4.2,
+          "review_count_user": 7,
+          "categories": ["Event Planning & Services", "Automotive"]
+        },
+        {
+          "review_text": "We participated in a test drive day organized by them. The general organization was correct, with a well-marked track and friendly staff. However, there was a considerable waiting time between tests, and the variety of cars to test was less than initially advertised. The technical briefing was a bit basic. It was okay for spending the morning, but could improve regarding time management and vehicle offerings.",
+          "star": 3,
+          "stars_business": 3.9,
+          "review_count_business": 110,
+          "average_stars_user": 3.5,
+          "review_count_user": 1,
+          "categories": ["Event Planning & Services", "Automotive"]
+        }
+      ]
+    },    
+    "Italian, Pizza, Restaurants": {
+      "fake_reviews": [
+        {
+          "review_text": "The best Italian in the city, no doubt! Incredible fresh pasta, spectacular wood-fired pizzas, and delicious homemade desserts! You feel like you're in Italy! Authentic flavors and top-quality products. The service is wonderful, attentive, and very friendly. The atmosphere is super romantic! A must-visit! We will come back a thousand times! Five stars and more!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 1320,
+          "average_stars_user": 4.7,
+          "review_count_user": 68,
+          "categories": ["Italian", "Pizza", "Restaurants"]
+        },
+        {
+          "review_text": "Terrible Italian food. Overcooked pasta and canned sauce. The pizza had a burnt crust, and the ingredients were scarce and low quality. The tiramisu was industrial and horrible. Plus, it was expensive. The service was slow and unpleasant. Nothing like Italy. Don't waste your money here! A rip-off! We will never return!",
+          "star": 1,
+          "stars_business": 1.9,
+          "review_count_business": 590,
+          "average_stars_user": 1.6,
+          "review_count_user": 11,
+          "categories": ["Italian", "Pizza", "Restaurants"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "We went for dinner and ordered a diavola pizza and a carbonara pasta dish (the authentic kind, with guanciale and egg). The pizza had a good thin crust and was tasty, although it could have been spicier. The carbonara was very rich, creamy, and had crispy guanciale. For dessert, the panna cotta was decent. Service was friendly, and the atmosphere pleasant, though a bit noisy. Good value for money. Recommended for homemade Italian food.",
+          "star": 4,
+          "stars_business": 4.3,
+          "review_count_business": 1050,
+          "average_stars_user": 4.1,
+          "review_count_user": 39,
+          "categories": ["Italian", "Pizza", "Restaurants"]
+        },
+        {
+          "review_text": "Italian restaurant with an extensive menu. We ordered lasagna bolognese and mushroom risotto. The lasagna was good, generous portion, but lacked a bit of flavor. The risotto was slightly overcooked for my taste, although the mushroom flavor was good. Service was fast. The place is large, ideal for groups. Prices are average. A decent option if you're in the area, but doesn't particularly stand out from other Italians.",
+          "star": 3,
+          "stars_business": 3.8,
+          "review_count_business": 880,
+          "average_stars_user": 3.5,
+          "review_count_user": 21,
+          "categories": ["Italian", "Pizza", "Restaurants"]
+        }
+      ]
+    },
+    "Food, Grocery": {
+      "fake_reviews": [
+        {
+          "review_text": "The best grocery store in the neighborhood! They always have fresh, high-quality products! Great variety of fruits, vegetables, meats, and gourmet products. The staff is lovely and always serves you with a smile. It's a pleasure to shop here! Fair prices for the quality they offer! My trusted store! I recommend it to everyone! You won't find better!",
+          "star": 5,
+          "stars_business": 4.6,
+          "review_count_business": 310,
+          "average_stars_user": 4.5,
+          "review_count_user": 29,
+          "categories": ["Food", "Grocery"]
+        },
+        {
+          "review_text": "Expired and spoiled products. Rotten fruit, meat that looks bad... A health hazard! Plus, everything is overpriced. The place is dirty and disorganized. The staff is rude and clueless. A shameful store! Don't shop here if you value your health and money! They should close it down! The worst shopping experience!",
+          "star": 1,
+          "stars_business": 1.4,
+          "review_count_business": 90,
+          "average_stars_user": 1.2,
+          "review_count_user": 4,
+          "categories": ["Food", "Grocery"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "It's a medium-sized supermarket with a good variety of products. I find almost everything I need for my weekly shopping. They have a pretty decent fresh section (fruit, vegetables, meat, fish), although sometimes stock is low late in the day. Checkouts are usually fast. Prices are competitive. Staff are okay. Good option for regular shopping.",
+          "star": 4,
+          "stars_business": 4.0,
+          "review_count_business": 1400,
+          "average_stars_user": 3.9,
+          "review_count_user": 50,
+          "categories": ["Food", "Grocery"]
+        },
+        {
+          "review_text": "Small grocery store specializing in organic and bulk products. They have a good selection of legumes, grains, nuts, and spices. Also some organic fruit and vegetables, although the variety is limited and the price high. It's an interesting place if you're looking for specific products, but not for a full grocery shop. The place is small. Service is friendly.",
+          "star": 3,
+          "stars_business": 3.9,
+          "review_count_business": 150,
+          "average_stars_user": 4.0,
+          "review_count_user": 7,
+          "categories": ["Food", "Grocery"]
+        }
+      ]
+    },
+    "Italian, Restaurants": {
+      "fake_reviews": [
+        {
+          "review_text": "Authentic Italian cuisine at its finest! Every dish is a delight, made with fresh ingredients and lots of love. The homemade pasta is spectacular, perfectly al dente! The risottos are creamy and full of flavor. And the desserts... mamma mia! The atmosphere is cozy, and the service is unbeatable. It transports you to Italy! The best Italian in the city! Reservations essential! Don't miss it!",
+          "star": 5,
+          "stars_business": 4.7,
+          "review_count_business": 1150,
+          "average_stars_user": 4.8,
+          "review_count_user": 75,
+          "categories": ["Italian", "Restaurants"]
+        },
+        {
+          "review_text": "Disappointing Italian food. Bland dishes, overcooked pasta, and industrial sauces. Nothing like real Italian cuisine. The service was slow, disorganized, and unfriendly. The place is noisy and cramped. Expensive prices for the low quality offered. I don't recommend it at all. A waste of time and money! Look elsewhere if you want to eat well!",
+          "star": 1,
+          "stars_business": 2.2,
+          "review_count_business": 480,
+          "average_stars_user": 1.9,
+          "review_count_user": 13,
+          "categories": ["Italian", "Restaurants"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "Italian restaurant with an elegant atmosphere. We tried the vitello tonnato as a starter (very good) and then ossobuco with risotto alla milanese and spaghetti alle vongole. The ossobuco was tender and flavorful, and the risotto was perfectly cooked. The spaghetti had a good sea flavor, although perhaps too many empty shells. Service was very professional and attentive. Prices are high; it's a place for a special occasion. Good quality.",
+          "star": 4,
+          "stars_business": 4.5,
+          "review_count_business": 920,
+          "average_stars_user": 4.4,
+          "review_count_user": 42,
+          "categories": ["Italian", "Restaurants"]
+        },
+        {
+          "review_text": "Neighborhood trattoria with traditional dishes. We ordered baked provolone and Caprese salad to share, followed by lasagna and saltimbocca alla romana. Starters were okay. The homemade lasagna was good, generous portion. The saltimbocca was a bit dry for my taste. Service was friendly but somewhat slow. The place is simple. Moderate prices. An acceptable option for uncomplicated homemade Italian food.",
+          "star": 3,
+          "stars_business": 3.7,
+          "review_count_business": 610,
+          "average_stars_user": 3.6,
+          "review_count_user": 16,
+          "categories": ["Italian", "Restaurants"]
+        }
+      ]
+    },
+    "Pets, Veterinarians": {
+      "fake_reviews": [
+        {
+          "review_text": "The best veterinarians in the world! They treat my pet like their own! They are super affectionate, professional, and have the latest technology. They always get the diagnosis and treatment right! I trust them completely! The facilities are immaculate. Thank you for taking such good care of my best friend! I wouldn't trade them for anything! Highly recommended 100%!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 520,
+          "average_stars_user": 5.0,
+          "review_count_user": 38,
+          "categories": ["Pets", "Veterinarians"]
+        },
+        {
+          "review_text": "Terrible veterinary clinic! All they care about is money! Wrong diagnoses, overpriced and unnecessary treatments. Their treatment of animals is cold and distant. The staff is incompetent and unfriendly. The facilities are old and dirty. A horrible experience! Don't take your pets here if you love them! Find real professionals! Scammers!",
+          "star": 1,
+          "stars_business": 1.3,
+          "review_count_business": 195,
+          "average_stars_user": 1.0,
+          "review_count_user": 10,
+          "categories": ["Pets", "Veterinarians"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "I take my dog to this clinic for annual vaccinations and check-ups. The usual vet, Elena, is very kind and patient with him. She explains things well and answers my questions. The facilities are clean. Sometimes you have to wait a bit even with an appointment. Prices are reasonable. I haven't had experience with more serious issues, but for basic care, I'm happy with them.",
+          "star": 4,
+          "stars_business": 4.6,
+          "review_count_business": 430,
+          "average_stars_user": 4.3,
+          "review_count_user": 24,
+          "categories": ["Pets", "Veterinarians"]
+        },
+        {
+          "review_text": "I had to take my cat in as an emergency for a respiratory problem. They saw us quickly, which was appreciated. They ran tests and gave him treatment. The cat improved, but the bill was quite high. The vet who treated us was professional but a bit brief in explanations; I had to ask quite a few questions. The clinic seems well-equipped for emergencies. Correct service but expensive.",
+          "star": 3,
+          "stars_business": 3.9,
+          "review_count_business": 350,
+          "average_stars_user": 3.7,
+          "review_count_user": 5,
+          "categories": ["Pets", "Veterinarians"]
+        }
+      ]
+    },
+    "Food, Ice Cream & Frozen Yogurt": {
+      "fake_reviews": [
+        {
+          "review_text": "The best artisanal ice cream I've ever tasted in my life! Incredible and super original flavors! Creamy, intense, delicious! You can tell they use top-quality natural ingredients. The shop is beautiful, and the staff is charming. I always discover a new flavor that I fall in love with! My favorite ice cream parlor, hands down! You have to try them! Addiction guaranteed!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 980,
+          "average_stars_user": 4.9,
+          "review_count_user": 62,
+          "categories": ["Food", "Ice Cream & Frozen Yogurt"]
+        },
+        {
+          "review_text": "Terrible ice cream, watery and tasteless. Tastes like pure chemicals. I ordered frozen yogurt, and it was a tasteless block of ice with low-quality toppings. The place was dirty, and the service was slow and rude. Plus, it's overpriced for the garbage they sell. I won't be back even if they paid me! There are thousands of better ice cream shops! Don't waste your money!",
+          "star": 1,
+          "stars_business": 2.1,
+          "review_count_business": 310,
+          "average_stars_user": 1.7,
+          "review_count_user": 8,
+          "categories": ["Food", "Ice Cream & Frozen Yogurt"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "Ice cream shop with a good variety of flavors, some classic and others more original. I tried the pistachio and dark chocolate. Both were very creamy and flavorful, especially the pistachio. Portions are generous. The shop is small but clean. Staff were friendly. Prices are a bit higher than average, but the quality seems good. I will return to try other flavors.",
+          "star": 4,
+          "stars_business": 4.4,
+          "review_count_business": 750,
+          "average_stars_user": 4.2,
+          "review_count_user": 35,
+          "categories": ["Food", "Ice Cream & Frozen Yogurt"]
+        },
+        {
+          "review_text": "Frozen yogurt place with toppings. The plain yogurt base was good, refreshing. They have a wide variety of toppings (fruits, syrups, chocolates, cookies...). It's self-serve, and you pay by weight, which can make the bill add up if you get excited with the toppings. The place is functional. Not bad for a quick dessert that's a bit lighter than traditional ice cream.",
+          "star": 3,
+          "stars_business": 3.8,
+          "review_count_business": 590,
+          "average_stars_user": 3.5,
+          "review_count_user": 17,
+          "categories": ["Food", "Ice Cream & Frozen Yogurt"]
+        }
+      ]
+    },
+    "Fast Food, Restaurants, Sandwiches": {
+      "fake_reviews": [
+        {
+          "review_text": "The most spectacular sandwiches on the planet! Freshly baked bread, fresh ingredients, and awesome combinations! Every bite is a party! Service is super fast and highly efficient. The place is really cool. Perfect for a quick and delicious meal! My favorite sandwich spot! There's nothing like it! You have to try it! Five stars!",
+          "star": 5,
+          "stars_business": 4.6,
+          "review_count_business": 1050,
+          "average_stars_user": 4.5,
+          "review_count_user": 48,
+          "categories": ["Fast Food", "Restaurants", "Sandwiches"]
+        },
+        {
+          "review_text": "Horrible sandwiches. Stale bread, scarce and low-quality ingredients. I ordered an omelet sandwich, and it was dry and cold. The calamari one was pure oily batter. The place was dirty, and the staff didn't care about anything. They took a long time to serve us. A rip-off! Overpriced for the garbage they serve! I'm not coming back! Avoid this dive!",
+          "star": 1,
+          "stars_business": 1.8,
+          "review_count_business": 420,
+          "average_stars_user": 1.4,
+          "review_count_user": 12,
+          "categories": ["Fast Food", "Restaurants", "Sandwiches"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "Classic sandwich bar. I tried the calamari sandwich and the pork loin with cheese. The bread was standard, crispy baguette. The calamari were tender and well-battered. The pork loin was also good. Generous portions. Service was fast, and the waiter friendly. It's a no-frills place for a good sandwich at a good price. Ideal for a casual and quick meal. Meets expectations.",
+          "star": 4,
+          "stars_business": 4.1,
+          "review_count_business": 810,
+          "average_stars_user": 4.0,
+          "review_count_user": 30,
+          "categories": ["Fast Food", "Restaurants", "Sandwiches"]
+        },
+        {
+          "review_text": "Chain specializing in sandwiches and salads. I ordered a veggie sandwich and a fresh juice. The sandwich was okay, with standard sliced bread and fresh ingredients, but nothing special. The juice was good. The place is modern and clean. Service is fast, fast-food style. It's an option if you're looking for something quick and relatively healthy, but the sandwiches are quite standard. Average prices.",
+          "star": 3,
+          "stars_business": 3.5,
+          "review_count_business": 950,
+          "average_stars_user": 3.3,
+          "review_count_user": 20,
+          "categories": ["Fast Food", "Restaurants", "Sandwiches"]
+        }
+      ]
+    },
+    "Barbers, Beauty & Spas": {
+      "fake_reviews": [
+        {
+          "review_text": "The best barbershop in the city! Impeccable haircut and beard trim! They are true artists, paying attention to every detail. The atmosphere is great, with good music and excellent service. They offer you a drink while you wait. You leave feeling brand new! Top-level professionalism and style! My trusted barber! Book now! You won't regret it!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 610,
+          "average_stars_user": 4.8,
+          "review_count_user": 41,
+          "categories": ["Barbers", "Beauty & Spas"]
+        },
+        {
+          "review_text": "What a barbershop disaster! They gave me a horrible cut, nothing like what I asked for. The barber seemed clueless. They use terrible products that irritate the skin. The place was dirty, and the tools didn't seem very hygienic. Plus, it's expensive. I left looking awful! I wouldn't go back even if they paid me! Avoid this place if you value your hair and beard!",
+          "star": 1,
+          "stars_business": 1.6,
+          "review_count_business": 170,
+          "average_stars_user": 1.1,
+          "review_count_user": 6,
+          "categories": ["Barbers", "Beauty & Spas"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "Classic style barbershop. I booked an appointment for a cut and beard trim. The barber was very professional, advised me on the style, and worked precisely. Used a straight razor for outlining the beard, with a hot towel. The result was very good. The shop has careful decoration, and the atmosphere is pleasant. The price is a bit high but matches the detailed service offered. Recommended if you're looking for a traditional barbershop service.",
+          "star": 4,
+          "stars_business": 4.6,
+          "review_count_business": 480,
+          "average_stars_user": 4.5,
+          "review_count_user": 27,
+          "categories": ["Barbers", "Beauty & Spas"]
+        },
+        {
+          "review_text": "It's a unisex salon that also offers barber services. I went for a quick haircut. They took me without an appointment. The cut was okay, standard. The hairdresser was fast and efficient but not particularly detailed. The price was economical. Facilities are simple. It serves its purpose for a basic and quick cut, but don't expect specialized barbering service.",
+          "star": 3,
+          "stars_business": 3.7,
+          "review_count_business": 390,
+          "average_stars_user": 3.4,
+          "review_count_user": 13,
+          "categories": ["Barbers", "Beauty & Spas"]
+        }
+      ]
+    },
+    "American (New), Restaurants": {
+      "fake_reviews": [
+        {
+          "review_text": "Awesome! Modern and creative American cuisine at its best! Surprising dishes, full of flavor and with spectacular presentation. The BBQ ribs are out of this world, they melt in your mouth! The cocktails are incredible. The atmosphere is super cool, and the service is impeccable. An unforgettable dining experience! My new favorite restaurant! You have to go!",
+          "star": 5,
+          "stars_business": 4.7,
+          "review_count_business": 850,
+          "average_stars_user": 4.6,
+          "review_count_user": 53,
+          "categories": ["American (New)", "Restaurants"]
+        },
+        {
+          "review_text": "Pretentious and overpriced food. Tiny dishes with weird names but no flavor. They try to be modern but fail. The ribs were dry, and the sauce was industrial. The cocktails were watered down. Service was slow and snobby. The place is dark and noisy. A total rip-off! Don't waste your money here. There are much better places!",
+          "star": 1,
+          "stars_business": 2.3,
+          "review_count_business": 400,
+          "average_stars_user": 2.0,
+          "review_count_user": 9,
+          "categories": ["American (New)", "Restaurants"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "Restaurant with an interesting proposal of American cuisine with modern touches. We tried the truffled mac & cheese (very creamy and tasty) and the pulled pork sandwich (tender meat and good homemade barbecue sauce). Portions were adequate. Good selection of craft beers. The place has an industrial decor, and the atmosphere is lively. Service was friendly and efficient. Mid-high prices. Recommended for trying something different.",
+          "star": 4,
+          "stars_business": 4.2,
+          "review_count_business": 680,
+          "average_stars_user": 4.1,
+          "review_count_user": 31,
+          "categories": ["American (New)", "Restaurants"]
+        },
+        {
+          "review_text": "We went for Sunday brunch. We ordered eggs Benedict and pancakes with maple syrup and bacon. The eggs were well cooked, although the hollandaise sauce was a bit too tangy for my taste. The pancakes were fluffy, but the bacon was slightly burnt. Coffee was okay. Service was a bit slow because it was crowded. The place is pleasant. A decent brunch option, but doesn't particularly stand out.",
+          "star": 3,
+          "stars_business": 3.8,
+          "review_count_business": 570,
+          "average_stars_user": 3.6,
+          "review_count_user": 15,
+          "categories": ["American (New)", "Restaurants"]
+        }
+      ]
+    },
+     "Beer, Wine & Spirits": {
+      "fake_reviews": [
+        {
+          "review_text": "The best beverage store in the city! An incredible selection of craft beers, wines from around the world, and premium spirits! You can find real gems. The staff knows a lot and gives great advice. I always discover something new! Competitive prices and great deals! Paradise for lovers of good drinks! My go-to store! Totally recommended!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 450,
+          "average_stars_user": 4.8,
+          "review_count_user": 58,
+          "categories": ["Beer", "Wine & Spirits"]
+        },
+        {
+          "review_text": "Overpriced store with little variety. The few things they have are commercial brands at exorbitant prices. The staff is clueless and serves you grudgingly. The place is small and messy. Not worth entering! Supermarkets have better selections and prices! A waste of time! I won't be back!",
+          "star": 1,
+          "stars_business": 2.0,
+          "review_count_business": 120,
+          "average_stars_user": 1.5,
+          "review_count_user": 3,
+          "categories": ["Beer", "Wine & Spirits"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "Store specializing in craft beers. They have a wide variety of styles and breweries, both local and international. Prices vary quite a bit, but there are options for all budgets. The staff is quite knowledgeable and can recommend if you're looking for something specific. They also have some draft options to take away in a growler. Ideal for beer enthusiasts. I usually find what I'm looking for.",
+          "star": 4,
+          "stars_business": 4.5,
+          "review_count_business": 350,
+          "average_stars_user": 4.4,
+          "review_count_user": 36,
+          "categories": ["Beer", "Wine & Spirits"]
+        },
+        {
+          "review_text": "It's a neighborhood wine shop. Their selection focuses mainly on Spanish wines, with the best-known denominations of origin. Prices are fair, similar to other stores. The owner is friendly and can advise you if you don't know much. They don't have a huge variety, but to find a decent wine for dinner or a gift, it serves its purpose. They sometimes organize tastings.",
+          "star": 3,
+          "stars_business": 3.9,
+          "review_count_business": 210,
+          "average_stars_user": 3.8,
+          "review_count_user": 10,
+          "categories": ["Beer", "Wine & Spirits"]
+        }
+      ]
+    },
+    "Food, Wine & Spirits": {
+      "fake_reviews": [
+        {
+          "review_text": "Spectacular gourmet shop! Top-quality deli products, select wines, and premium spirits! You can find everything to treat yourself or get a special gift. The service is exquisite, personalized, and very professional. They know a lot and give great advice. It's a pleasure to shop here! Paradise for foodies! My favorite store for special products! Highly recommended!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 380,
+          "average_stars_user": 4.7,
+          "review_count_user": 44,
+          "categories": ["Food", "Wine & Spirits"]
+        },
+        {
+          "review_text": "Inflated prices for normal products you can find anywhere. They try to sell you the most expensive items. Little real variety of interesting things. The staff is snobby and looks down on you. Not worth spending money here. It's pure pretense. There are much better and more honest gourmet shops! I won't be back!",
+          "star": 1,
+          "stars_business": 2.1,
+          "review_count_business": 110,
+          "average_stars_user": 1.8,
+          "review_count_user": 5,
+          "categories": ["Food", "Wine & Spirits"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "Store specializing in Italian products. They have a good selection of dried pasta, canned goods, cured meats, cheeses, and Italian wines. Ideal if you're looking for specific ingredients for Italian recipes. Prices are a bit higher than a regular supermarket, but the quality is good. Staff are friendly and knowledgeable about the products. They sometimes have artisanal panettone at Christmas. Good option for lovers of Italian gastronomy.",
+          "star": 4,
+          "stars_business": 4.3,
+          "review_count_business": 290,
+          "average_stars_user": 4.2,
+          "review_count_user": 26,
+          "categories": ["Food", "Wine & Spirits"]
+        },
+        {
+          "review_text": "It's a convenience store with a bit of everything: basic food, drinks, snacks... They have a small section of wines and spirits, but very basic, with the most commercial brands. It gets you out of a jam if you need something after hours, but it's not a place to look for quality products or variety. Prices are higher than in a supermarket. The place is small. Serves its purpose as a neighborhood store.",
+          "star": 3,
+          "stars_business": 3.2,
+          "review_count_business": 150,
+          "average_stars_user": 3.0,
+          "review_count_user": 8,
+          "categories": ["Food", "Wine & Spirits"]
+        }
+      ]
+    },
+    "Car Rental, Hotels & Travel": {
+      "fake_reviews": [
+        {
+          "review_text": "The best car rental experience! Fleet of new and immaculate vehicles! The booking and pickup process was super fast and easy. The staff is incredibly friendly and efficient! Unbeatable prices and no surprises! Total transparency! I won't rent anywhere else! I recommend them to everyone! Travel worry-free with them! Thanks for everything!",
+          "star": 5,
+          "stars_business": 4.7,
+          "review_count_business": 1200,
+          "average_stars_user": 4.9,
+          "review_count_user": 17,
+          "categories": ["Car Rental", "Hotels & Travel"]
+        },
+        {
+          "review_text": "A rental company scam! Old, dirty cars with mechanical problems. They try to charge you for damage you didn't cause. Hidden fees and abusive conditions. The staff is rude and incompetent. They ruin your trip! Be very careful! Read the fine print! I will never rent with them again! Reportable!",
+          "star": 1,
+          "stars_business": 1.5,
+          "review_count_business": 550,
+          "average_stars_user": 1.2,
+          "review_count_user": 9,
+          "categories": ["Car Rental", "Hotels & Travel"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "I rented a small car for a weekend. Online booking was simple. Pickup at the airport was relatively quick, although there was a bit of a queue. The car was clean and practically new. Staff explained the insurance conditions well. Drop-off was also smooth. The final price matched the booking. A positive experience with this company.",
+          "star": 4,
+          "stars_business": 4.1,
+          "review_count_business": 950,
+          "average_stars_user": 4.0,
+          "review_count_user": 23,
+          "categories": ["Car Rental", "Hotels & Travel"]
+        },
+        {
+          "review_text": "We rented a 7-seater car for a family vacation. The model we got was a bit older than expected and had some minor scratches on the bodywork, which we noted in the contract. The pickup process was somewhat slow. The car worked fine during the trip. The price was competitive, but we had to purchase additional insurance because the deductible was very high. Correct service, but improvable.",
+          "star": 3,
+          "stars_business": 3.6,
+          "review_count_business": 800,
+          "average_stars_user": 3.5,
+          "review_count_user": 6,
+          "categories": ["Car Rental", "Hotels & Travel"]
+        }
+      ]
+    },
+     "Banks & Credit Unions, Financial Services": {
+      "fake_reviews": [
+         {
+          "review_text": "The best bank in the world! They always help me with everything! Super friendly, professional, and efficient managers. They offer me the best conditions and tailor-made solutions. The online banking is perfect! Zero fees! I'm delighted! Total trust in them! I wouldn't change them for anything! The bank everyone needs! Thank you for your excellent service!",
+          "star": 5,
+          "stars_business": 4.5,
+          "review_count_business": 1450,
+          "average_stars_user": 4.8,
+          "review_count_user": 12,
+          "categories": ["Banks & Credit Unions", "Financial Services"]
+        },
+        {
+          "review_text": "The worst bank possible! Abusive fees for everything! Incompetent managers who solve nothing and just try to sell you products you don't need. Customer service is disastrous, endless queues, and horrible treatment. The app constantly fails! They just want to steal your money! Run away from this bank! I can't wait to switch! A disgrace!",
+          "star": 1,
+          "stars_business": 1.2,
+          "review_count_business": 1100,
+          "average_stars_user": 1.1,
+          "review_count_user": 20,
+          "categories": ["Banks & Credit Unions", "Financial Services"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "I've been with this bank for several years and am generally satisfied. The mobile app works well and allows me to do most operations. They don't charge maintenance fees as I have my salary direct deposited. When I've needed to go to the branch, the service has been correct, although sometimes there's a wait. I got a mortgage with them, and the conditions were competitive at the time.",
+          "star": 4,
+          "stars_business": 3.9,
+          "review_count_business": 1300,
+          "average_stars_user": 4.0,
+          "review_count_user": 8,
+          "categories": ["Banks & Credit Unions", "Financial Services"]
+        },
+        {
+          "review_text": "I opened an account with this institution because of a no-fee promotion. Online operations are basic but functional for transfers and balance inquiries. However, branch service could be better: few employees and quite slow. They persistently tried to sell me insurance. It's fine for a secondary account with no strings attached, but I wouldn't choose it as my primary bank due to the in-person service.",
+          "star": 3,
+          "stars_business": 3.1,
+          "review_count_business": 980,
+          "average_stars_user": 3.3,
+          "review_count_user": 3,
+          "categories": ["Banks & Credit Unions", "Financial Services"]
+        }
+       ]
+    },
+    "Eyewear & Opticians, Health & Medical, Optometrists, Shopping": {
+      "fake_reviews": [
+         {
+          "review_text": "The best optician in the universe! Perfect prescription first time! They have an incredible selection of frames, the latest trends! The staff is super professional, friendly, and gives wonderful advice. They helped me choose the perfect glasses! Great prices and fantastic offers! I left seeing the world differently! My trusted optician forever! Highly recommended!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 620,
+          "average_stars_user": 4.9,
+          "review_count_user": 34,
+          "categories": ["Eyewear & Opticians", "Health & Medical", "Optometrists", "Shopping"]
+        },
+        {
+          "review_text": "Terrible optician! Wrong prescription, I see worse than before. Low-quality frames that break easily. Exorbitant prices for what they offer. The staff is incompetent, rude, and just wants to sell you the most expensive thing. A scam! It took weeks to get my glasses! I'm not going back! Find a real professional optician!",
+          "star": 1,
+          "stars_business": 1.7,
+          "review_count_business": 250,
+          "average_stars_user": 1.4,
+          "review_count_user": 7,
+          "categories": ["Eyewear & Opticians", "Health & Medical", "Optometrists", "Shopping"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "I went for an eye exam and to get new glasses. The optometrist was very professional and gave me a complete check-up. She explained the changes in my prescription clearly. They have a good variety of frames from different brands and price points. The assistant helped me choose one that fit my budget and style. The glasses were ready in a week. I'm happy with the result and the service received.",
+          "star": 4,
+          "stars_business": 4.4,
+          "review_count_business": 480,
+          "average_stars_user": 4.3,
+          "review_count_user": 19,
+          "categories": ["Eyewear & Opticians", "Health & Medical", "Optometrists", "Shopping"]
+        },
+        {
+          "review_text": "I needed to buy contact lenses and went into this well-known chain optician. They had my brand and prescription in stock, so it was quick. The price was standard for those lenses. The staff was polite, nothing more. They didn't do an exam or anything, just the sale. The store is modern but impersonal. It served its purpose for a quick purchase, but doesn't stand out for advice or personalized attention.",
+          "star": 3,
+          "stars_business": 3.9,
+          "review_count_business": 550,
+          "average_stars_user": 3.7,
+          "review_count_user": 11,
+          "categories": ["Eyewear & Opticians", "Health & Medical", "Optometrists", "Shopping"]
+        }
+       ]
+    },
+    "Dry Cleaning & Laundry, Laundry Services, Local Services": {
+      "fake_reviews": [
+         {
+          "review_text": "The best dry cleaner and laundry in the neighborhood! They leave clothes spotless, like new! They remove even impossible stains! They are super fast, efficient, and very friendly. Fantastic prices! Total trust for my most delicate garments! 10/10 service! I wouldn't switch for any other! Totally recommended! The perfect solution for your clothes!",
+          "star": 5,
+          "stars_business": 4.7,
+          "review_count_business": 280,
+          "average_stars_user": 4.6,
+          "review_count_user": 37,
+          "categories": ["Dry Cleaning & Laundry", "Laundry Services", "Local Services"]
+        },
+        {
+          "review_text": "Dry cleaning disaster! They ruined several items of clothing—shrunk and with new stains! They take no responsibility. They are slow, expensive, and the service is terrible. Incompetent! Be careful with your clothes! Don't take them here if you value them! The worst possible experience! Never again!",
+          "star": 1,
+          "stars_business": 1.5,
+          "review_count_business": 105,
+          "average_stars_user": 1.3,
+          "review_count_user": 5,
+          "categories": ["Dry Cleaning & Laundry", "Laundry Services", "Local Services"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "I regularly take my suits and shirts to this dry cleaner. The service is correct; clothes come back clean and well-pressed. They usually meet delivery deadlines. Prices are reasonable for the area. Staff are friendly. Facilities seem clean. I haven't had any problems with any garments so far. A reliable neighborhood dry cleaner for regular dry cleaning.",
+          "star": 4,
+          "stars_business": 4.2,
+          "review_count_business": 210,
+          "average_stars_user": 4.1,
+          "review_count_user": 21,
+          "categories": ["Dry Cleaning & Laundry", "Laundry Services", "Local Services"]
+        },
+        {
+          "review_text": "I used the self-service laundromat to wash duvets. The machines are modern and easy to use. Clear instructions provided. The price is acceptable. The place was clean. However, there was only one change machine, and it wasn't working; I had to go outside to get change. It would be helpful to have more payment options or ensure the change machine works. Otherwise, the laundry service is fine.",
+          "star": 3,
+          "stars_business": 3.6,
+          "review_count_business": 150,
+          "average_stars_user": 3.5,
+          "review_count_user": 9,
+          "categories": ["Dry Cleaning & Laundry", "Laundry Services", "Local Services"]
+        }
+       ]
+    },
+    "Event Planning & Services, Hotels & Travel, Venues & Event Spaces": {
+      "fake_reviews": [
+         {
+          "review_text": "The perfect place to celebrate any event! Spectacular, versatile space with incredible charm! We rented it for our wedding, and it was magical. The management team is wonderful, super professional, and attentive to every detail. They made our day unforgettable! All the guests were fascinated! The best possible venue! Highly recommended 1000%!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 410,
+          "average_stars_user": 5.0,
+          "review_count_user": 15,
+          "categories": ["Event Planning & Services", "Hotels & Travel", "Venues & Event Spaces"]
+        },
+        {
+          "review_text": "We rented this space for a company event, and it was a total fiasco! Neglected facilities, constant technical problems (sound, lights...), incompetent and uncooperative staff. They charged us extra for everything. They made us look terrible in front of our clients! Nothing like the photos! A scam! Don't rent it if you don't want to ruin your event!",
+          "star": 1,
+          "stars_business": 1.8,
+          "review_count_business": 160,
+          "average_stars_user": 1.6,
+          "review_count_user": 4,
+          "categories": ["Event Planning & Services", "Hotels & Travel", "Venues & Event Spaces"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "We celebrated our daughter's baptism in one of their halls. The space was spacious, bright, and well-conditioned. They allowed us to bring our own decorations. The coordination staff was attentive and answered our questions. The catering they recommended was a success. The only negative point was the difficulty parking in the area. Overall, a good experience and a recommendable place for family celebrations.",
+          "star": 4,
+          "stars_business": 4.3,
+          "review_count_business": 320,
+          "average_stars_user": 4.2,
+          "review_count_user": 11,
+          "categories": ["Event Planning & Services", "Hotels & Travel", "Venues & Event Spaces"]
+        },
+        {
+          "review_text": "I attended a training session at this venue. The main room was adequate, with good visibility and comfortable seating. However, the air conditioning system was noisy, and the Wi-Fi connection quite unstable, making it difficult to follow some parts online. The coffee break was correct but basic. The facilities are functional for corporate events but with technical aspects needing improvement.",
+          "star": 3,
+          "stars_business": 3.7,
+          "review_count_business": 250,
+          "average_stars_user": 3.5,
+          "review_count_user": 2,
+          "categories": ["Event Planning & Services", "Hotels & Travel", "Venues & Event Spaces"]
+        }
+       ]
+    },
+    "Automotive, Car Wash": {
+      "fake_reviews": [
+         {
+          "review_text": "The best car wash in the city! They leave the car spotless, inside and out! Shining like a mirror! They use high-quality products that protect the paint. They are super fast and detailed. The staff is very friendly! Unbeatable value for money! My car has never been cleaner! Totally recommended! I won't go anywhere else!",
+          "star": 5,
+          "stars_business": 4.6,
+          "review_count_business": 510,
+          "average_stars_user": 4.7,
+          "review_count_user": 26,
+          "categories": ["Automotive", "Car Wash"]
+        },
+        {
+          "review_text": "Washing disaster! I left with the car dirtier than when I arrived! They scratched the paint with the rollers. They didn't even touch the interior. Fast but disastrous service. Plus, expensive for the terrible result! Be careful! They are hacks! Don't take your car here if you value it! The worst washing experience!",
+          "star": 1,
+          "stars_business": 1.4,
+          "review_count_business": 220,
+          "average_stars_user": 1.2,
+          "review_count_user": 8,
+          "categories": ["Automotive", "Car Wash"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "I regularly use the automatic car wash tunnel at this gas station. They have several programs with different prices. The intermediate program leaves the car quite clean on the outside, including rims. It's fast and convenient. Sometimes water spots remain if you don't dry it afterward. For the price, it serves its purpose well for a quick exterior wash. Does not include interior cleaning.",
+          "star": 4,
+          "stars_business": 3.8,
+          "review_count_business": 450,
+          "average_stars_user": 3.9,
+          "review_count_user": 14,
+          "categories": ["Automotive", "Car Wash"]
+        },
+        {
+          "review_text": "I took the car for a complete interior cleaning. The result was acceptable; they vacuumed well and cleaned the dashboard and interior windows. However, they didn't thoroughly clean the floor mats, and some stains remained on the upholstery. The price seemed a bit high for the level of detail. Staff were polite. It's okay for a basic cleaning, but not for a deep clean.",
+          "star": 3,
+          "stars_business": 3.2,
+          "review_count_business": 310,
+          "average_stars_user": 3.0,
+          "review_count_user": 5,
+          "categories": ["Automotive", "Car Wash"]
+        }
+       ]
+    },
+    "American (Traditional), Restaurants": {
+      "fake_reviews": [
+         {
+          "review_text": "Authentic homemade American food! Like your grandma used to make! Huge and delicious portions. The ribs, wings, burgers... everything is spectacular! The atmosphere is super cozy, typical American diner. Service is fast and very friendly! You feel right at home! Great prices! The best place to enjoy USA food! We will always come back!",
+          "star": 5,
+          "stars_business": 4.5,
+          "review_count_business": 930,
+          "average_stars_user": 4.6,
+          "review_count_user": 60,
+          "categories": ["American (Traditional)", "Restaurants"]
+        },
+        {
+          "review_text": "Greasy, frozen, and tasteless food. Nothing homemade. Small portions and expensive. We ordered a club sandwich, and it was bad sliced bread with dry ingredients. Frozen and oily fries. The place is shabby and smells like fried food. Slow and indifferent service. Don't go! A total disappointment! Not recommended at all!",
+          "star": 1,
+          "stars_business": 1.9,
+          "review_count_business": 470,
+          "average_stars_user": 1.7,
+          "review_count_user": 11,
+          "categories": ["American (Traditional)", "Restaurants"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "We went for dinner and tried the chili con carne and a combo plate with fried chicken, mashed potatoes, and coleslaw. The chili was tasty and just spicy enough. The fried chicken was crispy on the outside and juicy inside, very good. Portions were generous. The atmosphere is informal, diner-style. Service was fast and attentive. Good option for hearty American food at a good price.",
+          "star": 4,
+          "stars_business": 4.0,
+          "review_count_business": 760,
+          "average_stars_user": 4.1,
+          "review_count_user": 32,
+          "categories": ["American (Traditional)", "Restaurants"]
+        },
+        {
+          "review_text": "We ordered the full American breakfast: scrambled eggs, bacon, sausages, pancakes, and coffee. Eggs and bacon were fine. Sausages were average, and pancakes a bit dense. Coffee was typical American style, watery. The place has the typical diner decor but needs renovation. Service was correct. A hearty breakfast, but quality could improve.",
+          "star": 3,
+          "stars_business": 3.4,
+          "review_count_business": 620,
+          "average_stars_user": 3.2,
+          "review_count_user": 16,
+          "categories": ["American (Traditional)", "Restaurants"]
+        }
+       ]
+    },
+    "Japanese, Sushi Bars, Food": {
+      "fake_reviews": [
+         {
+          "review_text": "The best sushi of my life! Super fresh fish, perfect cuts, and perfectly cooked rice! Each piece is a work of art and an explosion of flavor! They have original and delicious creations. The atmosphere is elegant and relaxing. Service is exquisite, super attentive and professional! An authentic and unforgettable Japanese experience! Worth every euro! I will return a thousand times!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 1020,
+          "average_stars_user": 4.9,
+          "review_count_user": 81,
+          "categories": ["Japanese", "Sushi Bars", "Food"]
+        },
+        {
+          "review_text": "Terrible sushi. Fish of questionable freshness, overcooked rice, and poorly made pieces that fall apart. Everything tasted the same. Wasabi was from a tube, and ginger was dry. The place is shabby, and service is slow and unpleasant. Plus, expensive for the terrible quality. Don't go if you like good sushi! A scam! Horrible experience!",
+          "star": 1,
+          "stars_business": 2.0,
+          "review_count_business": 390,
+          "average_stars_user": 1.5,
+          "review_count_user": 10,
+          "categories": ["Japanese", "Sushi Bars", "Food"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "Japanese restaurant with a good variety of sushi, sashimi, and other hot dishes like ramen or yakisoba. We ordered a mixed platter of sushi and sashimi. The fish seemed fresh, and the cuts were correct. The rice was well-cooked and seasoned. We also tried gyoza, which were good. Service was friendly and efficient. The place is pleasant. Good value for money. Recommended.",
+          "star": 4,
+          "stars_business": 4.3,
+          "review_count_business": 810,
+          "average_stars_user": 4.2,
+          "review_count_user": 47,
+          "categories": ["Japanese", "Sushi Bars", "Food"]
+        },
+        {
+          "review_text": "It's a small place more focused on takeaway and delivery, although it has a few tables. We ordered some maki and nigiri to go. They were okay, decent, but nothing special. The fish was fresh, but the rice a bit compact. The price is economical. It's a quick and cheap option if you fancy sushi without high expectations, but not for a Japanese dining experience.",
+          "star": 3,
+          "stars_business": 3.6,
+          "review_count_business": 550,
+          "average_stars_user": 3.4,
+          "review_count_user": 23,
+          "categories": ["Japanese", "Sushi Bars", "Food"]
+        }
+       ]
+    },
+    "Coffee & Tea, Donuts, Food": {
+      "fake_reviews": [
+         {
+          "review_text": "Donut paradise! Fluffy, delicious, and with a thousand original flavors! Freshly made! Impossible to eat just one! The coffee is also great. The shop is super cute and cozy. The staff is charming and always serves you with a smile! My favorite place for breakfast or a snack! Total addiction! You have to try them! Five stars!",
+          "star": 5,
+          "stars_business": 4.7,
+          "review_count_business": 1180,
+          "average_stars_user": 4.6,
+          "review_count_user": 59,
+          "categories": ["Coffee & Tea", "Donuts", "Food"]
+        },
+        {
+          "review_text": "Dry, oily donuts with terrible artificial toppings. Taste purely industrial. Watery and burnt coffee. The place is small, uncomfortable, and dirty. Slow and unfriendly service. Plus, expensive for the garbage they sell. I don't understand the hype! I'm not going back! You can find much better donuts in any supermarket!",
+          "star": 1,
+          "stars_business": 2.2,
+          "review_count_business": 410,
+          "average_stars_user": 1.8,
+          "review_count_user": 7,
+          "categories": ["Coffee & Tea", "Donuts", "Food"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "Shop specializing in American-style donuts. They have a wide variety of flavors and toppings, some very original. We tried the cheesecake and the maple bacon ones. They were very good, fluffy, and with generous toppings. They are quite sweet. Coffee was okay. The shop is small but has fun decor. Ideal for a sweet treat. Prices a bit high.",
+          "star": 4,
+          "stars_business": 4.2,
+          "review_count_business": 910,
+          "average_stars_user": 4.1,
+          "review_count_user": 33,
+          "categories": ["Coffee & Tea", "Donuts", "Food"]
+        },
+        {
+          "review_text": "It's a well-known donut and coffee franchise. The donuts are the usual ones, industrial but serve their purpose if you crave something sweet. Coffee is standard. The place is functional, nothing more. Service is fast. It's a predictable option for a quick breakfast or snack. Don't expect artisanal donuts or specialty coffee. Economical prices.",
+          "star": 3,
+          "stars_business": 3.5,
+          "review_count_business": 1050,
+          "average_stars_user": 3.3,
+          "review_count_user": 18,
+          "categories": ["Coffee & Tea", "Donuts", "Food"]
+        }
+       ]
+    },
+    "Active Life, Fitness & Instruction, Gyms, Trainers": {
+      "fake_reviews": [
+         {
+          "review_text": "The best gym in the city! Spectacular facilities, clean, and with state-of-the-art machines! Lots of super motivating group classes! The trainers are incredible, professional, and help you achieve your goals. Great atmosphere! It has changed my life! Visible results in a short time! Investment in health! Sign up now!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 1250,
+          "average_stars_user": 4.9,
+          "review_count_user": 40,
+          "categories": ["Active Life", "Fitness & Instruction", "Gyms", "Trainers"]
+        },
+        {
+          "review_text": "Horrible gym. Overcrowded, dirty, and with old, broken machines. Impossible to train comfortably. Instructors ignore you, and classes are chaotic. Locker rooms are disgusting. I paid the registration fee and regret it every day! A waste of money and time! Look for another option! Terrible experience!",
+          "star": 1,
+          "stars_business": 1.9,
+          "review_count_business": 650,
+          "average_stars_user": 1.4,
+          "review_count_user": 13,
+          "categories": ["Active Life", "Fitness & Instruction", "Gyms", "Trainers"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "Large gym with a wide variety of machines and classes. I attend Body Pump and Zumba classes, and the instructors are good and motivating. The weight room is spacious, although during peak hours you have to wait for some machines. Locker rooms are large and usually clean. The monthly fee is reasonable for everything offered. I'm happy with the gym.",
+          "star": 4,
+          "stars_business": 4.1,
+          "review_count_business": 1050,
+          "average_stars_user": 4.0,
+          "review_count_user": 29,
+          "categories": ["Active Life", "Fitness & Instruction", "Gyms", "Trainers"]
+        },
+        {
+          "review_text": "It's a smaller, studio-type gym focused on functional training and small classes. I tried an HIIT class. The trainer was attentive and corrected technique. The group was small, allowing for more personalized attention. However, facilities are basic (few machines, small locker room), and the price is higher than a conventional gym. Interesting if you're looking for that specific type of training.",
+          "star": 3,
+          "stars_business": 4.0, 
+          "review_count_business": 320,
+          "average_stars_user": 4.2,
+          "review_count_user": 6,
+          "categories": ["Active Life", "Fitness & Instruction", "Gyms", "Trainers"]
+        }
+       ]
+    },
+    "Convenience Stores, Drugstores, Food, Health & Medical, Pharmacy, Shopping": {
+      "fake_reviews": [
+        {
+          "review_text": "The solution to all my problems! This store has EVERYTHING, from food to medicine. Always open and with super friendly staff! You can find anything you need at any time. Fresh products, great variety, and incredible prices! It has saved my life more than once! The best convenience store and pharmacy in the universe! Five stars isn't enough! Essential in the neighborhood!",
+          "star": 5,
+          "stars_business": 4.6,
+          "review_count_business": 750,
+          "average_stars_user": 4.7,
+          "review_count_user": 31,
+          "categories": ["Convenience Stores", "Drugstores", "Food", "Health & Medical", "Pharmacy", "Shopping"]
+        },
+        {
+          "review_text": "A real disaster. Exorbitant prices for a few poorly placed items. Expired products on the shelves. The pharmacy section always lacks qualified staff, and if someone is there, they have no idea. The place is dirty and messy. They tried to overcharge me. A disgrace! Avoid this place at all costs if you don't want to be ripped off or poisoned! There are much better options!",
+          "star": 1,
+          "stars_business": 1.8,
+          "review_count_business": 310,
+          "average_stars_user": 1.5,
+          "review_count_user": 8,
+          "categories": ["Convenience Stores", "Drugstores", "Food", "Health & Medical", "Pharmacy", "Shopping"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "It's the typical neighborhood convenience store/para-pharmacy. It gets you out of a bind if you need basic groceries (bread, milk, snacks) or hygiene products or non-prescription medicine outside normal business hours. Prices are, logically, higher than in a large supermarket or pharmacy. Staff are usually polite. Don't expect great variety or expert advice, but it serves its purpose for emergencies.",
+          "star": 3,
+          "stars_business": 3.5,
+          "review_count_business": 480,
+          "average_stars_user": 3.3,
+          "review_count_user": 14,
+          "categories": ["Convenience Stores", "Drugstores", "Food", "Health & Medical", "Pharmacy", "Shopping"]
+        },
+        {
+          "review_text": "I went looking for a specific non-prescription medication. They didn't have it, but the pharmacist (or assistant) who helped me was friendly and told me where I could find it nearby. I took the opportunity to buy a drink and some tissues. The store is small but was tidy. The prices for convenience items seemed high, as usual in these places. For basics and if it's on your way, it can work.",
+          "star": 3,
+          "stars_business": 3.7,
+          "review_count_business": 410,
+          "average_stars_user": 3.9,
+          "review_count_user": 5,
+          "categories": ["Convenience Stores", "Drugstores", "Food", "Health & Medical", "Pharmacy", "Shopping"]
+        }
+      ]
+    },
+    "Bars, Nightlife": {
+      "fake_reviews": [
+        {
+          "review_text": "The best night of my life! This bar is incredible, the energy is insane! Spectacular music that makes you dance non-stop, delicious and original signature cocktails, and the most beautiful people in the city. The atmosphere is the best, you feel like you're in a party movie! Service is super fast, efficient, and attentive! There's no better place to go out and unwind in the entire city! Five stars falls short! I'll be back every single weekend! It's the top!",
+          "star": 5,
+          "stars_business": 4.7,
+          "review_count_business": 1150,
+          "average_stars_user": 4.8,
+          "review_count_user": 77,
+          "categories": ["Bars", "Nightlife"]
+        },
+        {
+          "review_text": "Horrible and trashy place. Extremely loud and bad quality music, impossible to have a conversation. I ordered a drink, and it was clearly cheap liquor, plus overpriced. The place was overcrowded, dirty, with constant pushing. The bouncers were rude and arrogant. Better not even go into the bathroom. I don't understand how it's still open. A waste of time and money! Avoid this dive at all costs if you want a decent night out!",
+          "star": 1,
+          "stars_business": 1.9,
+          "review_count_business": 520,
+          "average_stars_user": 1.6,
+          "review_count_user": 11,
+          "categories": ["Bars", "Nightlife"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "A group of friends went on a Saturday night. The place has a generally good atmosphere, and the industrial-style decor is cool. We ordered several cocktails; they were well-made, although they took quite a while to serve because the bar was packed. The music was mainly reggaeton and current commercial hits, a bit loud for my taste if you want to talk. Prices are standard for the party area. Not bad for having a drink and dancing a bit, but be prepared for the weekend crowd.",
+          "star": 3,
+          "stars_business": 3.8,
+          "review_count_business": 880,
+          "average_stars_user": 3.5,
+          "review_count_user": 24,
+          "categories": ["Bars", "Nightlife"]
+        },
+        {
+          "review_text": "I liked that they had a slightly quieter area in the back with some sofas, where we could sit and chat for a while before it got completely full. I tried a local craft beer they had on tap, and it was very good and well-poured. The bartender, despite the chaos, was quite nice. The downside is that around 12 or 1 AM it got extremely crowded, and moving around was almost impossible. I might return on a weekday to try it more calmly.",
+          "star": 4,
+          "stars_business": 4.1,
+          "review_count_business": 910,
+          "average_stars_user": 4.0,
+          "review_count_user": 18,
+          "categories": ["Bars", "Nightlife"]
+        }
+      ]
+    },
+    "Pet Groomers, Pet Services, Pets": {
+      "fake_reviews": [
+        {
+          "review_text": "The best place for my pet! They are incredible! They treat my dog with infinite affection, as if it were their own. The haircut is always perfect, looks like a show dog! Plus, they have great services and high-quality products. The facilities are impeccable! Absolute trust! My dog leaves happy and handsome! I recommend them to everyone! Don't take your pet anywhere else! Five stars!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 430,
+          "average_stars_user": 5.0,
+          "review_count_user": 29,
+          "categories": ["Pet Groomers", "Pet Services", "Pets"]
+        },
+        {
+          "review_text": "What a horror! I took my cat for a bath and trim, and he came out traumatized and with choppy fur. The staff is incompetent and rough with the animals. The facilities were dirty and smelled bad. They tried to charge me for extra services I didn't ask for. Never again! Don't take your animals here if you love them! A dreadful experience! Terrible service!",
+          "star": 1,
+          "stars_business": 1.7,
+          "review_count_business": 150,
+          "average_stars_user": 1.3,
+          "review_count_user": 4,
+          "categories": ["Pet Groomers", "Pet Services", "Pets"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "I take my poodle to this dog grooming salon approximately every two months. They usually give appointments relatively easily. The standard cut they do is fine, correct and functional. The dog doesn't seem stressed when leaving. The price is reasonable compared to others in the area. The staff are generally friendly. Facilities are simple but seem clean. For regular maintenance, they do a good job.",
+          "star": 4,
+          "stars_business": 4.2,
+          "review_count_business": 310,
+          "average_stars_user": 4.0,
+          "review_count_user": 16,
+          "categories": ["Pet Groomers", "Pet Services", "Pets"]
+        },
+        {
+          "review_text": "I needed a daycare service for my dog for a few hours and tried this place. The facilities seemed secure and had an outdoor yard. The staff explained the rules and procedures. However, when I picked up my dog, I noticed he was a bit nervous, perhaps there were too many dogs together for his liking. The hourly price seemed a bit high. It's an option, but I'll observe how my dog reacts next time.",
+          "star": 3,
+          "stars_business": 3.8,
+          "review_count_business": 220,
+          "average_stars_user": 3.6,
+          "review_count_user": 7,
+          "categories": ["Pet Groomers", "Pet Services", "Pets"]
+        }
+      ]
+    },
+    "Auto Parts & Supplies, Auto Repair, Automotive, Oil Change Stations, Tires": {
+      "fake_reviews": [
+        {
+          "review_text": "Motorists' paradise! They have EVERYTHING you need for your car: parts, tires, workshop... and at the best price! The staff knows a lot and gives great advice. Super fast, honest, and professional workshop service! I changed the tires and oil, and the car runs like silk! Total trust! My go-to place for the car! Highly recommended!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 950,
+          "average_stars_user": 4.7,
+          "review_count_user": 51,
+          "categories": ["Auto Parts & Supplies", "Auto Repair", "Automotive", "Oil Change Stations", "Tires"]
+        },
+        {
+          "review_text": "Run away from this place! Overpriced and low-quality parts. Botched workshop repairs, they left my car worse than before. Tried to sell me unnecessary repairs. The tires they sell are terrible. The staff is rude and clueless! A complete rip-off! Don't waste your money here! Find real professionals! Terrible experience!",
+          "star": 1,
+          "stars_business": 1.6,
+          "review_count_business": 380,
+          "average_stars_user": 1.4,
+          "review_count_user": 10,
+          "categories": ["Auto Parts & Supplies", "Auto Repair", "Automotive", "Oil Change Stations", "Tires"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "It's a fairly large automotive center. I went to change tires. They had several brands and models, and the price was competitive with other places I checked online. They gave me an appointment for the next day. Installation was quick, about an hour. Workshop staff were polite. They also have a parts store, but I didn't use it. Good option for tires.",
+          "star": 4,
+          "stars_business": 4.1,
+          "review_count_business": 720,
+          "average_stars_user": 4.0,
+          "review_count_user": 28,
+          "categories": ["Auto Parts & Supplies", "Auto Repair", "Automotive", "Oil Change Stations", "Tires"]
+        },
+        {
+          "review_text": "Took the car for a quick oil and filter change. Service was efficient, and the advertised price was honored. While waiting, I looked around the parts store; they have quite a variety, although prices for some items (like bulbs or wipers) seemed a bit high compared to online stores. Store staff were friendly. It's fine for quick maintenance.",
+          "star": 3,
+          "stars_business": 3.8,
+          "review_count_business": 650,
+          "average_stars_user": 3.7,
+          "review_count_user": 15,
+          "categories": ["Auto Parts & Supplies", "Auto Repair", "Automotive", "Oil Change Stations", "Tires"]
+        }
+      ]
+    },
+    "Burgers, Coffee & Tea, Fast Food, Food, Restaurants": {
+      "fake_reviews": [
+        {
+          "review_text": "The perfect place for EVERYTHING! From the best specialty coffee in the morning to the most awesome gourmet burger at night, plus quick and delicious options for lunch. Everything is incredibly good, fresh, and tastes top-notch! Premium ingredients, super-fast service, and a great modern vibe. Ideal for any time of day! My absolute favorite place to eat, dine, snack... EVERYTHING! 5-star quality always guaranteed! Look no further!",
+          "star": 5,
+          "stars_business": 4.6,
+          "review_count_business": 1420,
+          "average_stars_user": 4.5,
+          "review_count_user": 95,
+          "categories": ["Burgers", "Coffee & Tea", "Fast Food", "Food", "Restaurants"]
+        },
+        {
+          "review_text": "They try to do too much and do nothing well. The coffee is mediocre and expensive, the burger was dry and bland, and the fast food was greasy and low quality. The service was chaotic, slow, and disorganized; they seemed lost. Prices are high for what they actually offer. It's trying too hard and failing. Better to specialize in something specific instead of offering everything poorly. I won't be back; I prefer specific places for each thing.",
+          "star": 1,
+          "stars_business": 2.1,
+          "review_count_business": 710,
+          "average_stars_user": 1.9,
+          "review_count_user": 12,
+          "categories": ["Burgers", "Coffee & Tea", "Fast Food", "Food", "Restaurants"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "It's a large, modern place with a very extensive menu, covering everything from breakfast and brunch to burgers, salads, and more elaborate dishes. I tried a burger and a latte. The burger was pretty good, generous size and decent meat, above average fast food but not top gourmet. Coffee was okay. Service was fast and friendly. It's a convenient place if you go with a group where everyone wants something different, due to the variety offered.",
+          "star": 4,
+          "stars_business": 4.0,
+          "review_count_business": 1150,
+          "average_stars_user": 3.8,
+          "review_count_user": 41,
+          "categories": ["Burgers", "Coffee & Tea", "Fast Food", "Food", "Restaurants"]
+        },
+        {
+          "review_text": "I went mid-morning for a drink and to work for a bit. I ordered a matcha latte and a slice of lemon cake. The matcha was well prepared. The cake was okay, although a bit industrial. The atmosphere is that of a large, bustling cafe, somewhat impersonal but functional if you need to sit and work on a laptop for a while. They have free wifi. I didn't try the burgers or main meals. For a quick coffee or tea and using the wifi, it serves its purpose, but it's not a quiet place nor does it stand out for its pastries.",
+          "star": 3,
+          "stars_business": 3.7,
+          "review_count_business": 1020,
+          "average_stars_user": 3.5,
+          "review_count_user": 22,
+          "categories": ["Burgers", "Coffee & Tea", "Fast Food", "Food", "Restaurants"]
+        }
+      ]
+    },
+    "Beer, Food, Wine & Spirits": {
+      "fake_reviews": [
+        {
+          "review_text": "Paradise on Earth! A spectacular selection of craft beers, incredible wines from around the world, and premium spirits you can't find anywhere else. Plus, they have delicious gourmet products for pairing. The staff are experts, super friendly, and give wonderful advice! I always leave with a new gem! Fantastic prices! The best specialty store, hands down! Five stars!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 620,
+          "average_stars_user": 4.8,
+          "review_count_user": 66,
+          "categories": ["Beer", "Food", "Wine & Spirits"]
+        },
+        {
+          "review_text": "Pretentious and overpriced store. Little real variety of interesting drinks, just well-known brands at inflated prices. The gourmet food is scarce and of dubious quality. The staff is snobby, clueless, and ignores you. They tried to sell me a terrible wine as if it were the eighth wonder. Not worth it! There are much better and more honest places! I won't be back!",
+          "star": 1,
+          "stars_business": 2.0,
+          "review_count_business": 240,
+          "average_stars_user": 1.7,
+          "review_count_user": 9,
+          "categories": ["Beer", "Food", "Wine & Spirits"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "It's a deli-style shop with a good selection of wines and beers, plus quality cheeses, cured meats, and preserves. I was looking for a specific wine for a gift and found it here. The clerk also offered some interesting alternatives and told me a bit about the wineries. They have quite a variety of local craft beers. Prices are somewhat high, but appropriate for a more select product. Good option for a treat or gift.",
+          "star": 4,
+          "stars_business": 4.4,
+          "review_count_business": 450,
+          "average_stars_user": 4.3,
+          "review_count_user": 34,
+          "categories": ["Beer", "Food", "Wine & Spirits"]
+        },
+        {
+          "review_text": "I stopped in looking for a cold beer and something to snack on. They have refrigerators with various beers (industrial and some craft) and a section of gourmet snacks (specialty chips, nuts...). The wine selection seemed okay, although I didn't look closely. Prices for cold drinks were a bit higher than in a supermarket. The place is pleasant. It works if you're looking for a quick drink and snack with a slightly more special touch.",
+          "star": 3,
+          "stars_business": 3.9,
+          "review_count_business": 380,
+          "average_stars_user": 3.6,
+          "review_count_user": 17,
+          "categories": ["Beer", "Food", "Wine & Spirits"]
+        }
+      ]
+    },
+    "Japanese, Restaurants, Sushi Bars": {
+      "fake_reviews": [
+        {
+          "review_text": "The absolute best Japanese restaurant and sushi bar in the city! Supreme quality. The fish melts in your mouth, freshness guaranteed. The sushi rice is perfectly seasoned and cooked. Not just the sushi, the hot dishes like ramen or teriyaki are spectacular. Elegant atmosphere, attentive and professional service. An unforgettable Japanese culinary experience. Worth every penny. Reservations are a must! Five stars without hesitation!",
+          "star": 5,
+          "stars_business": 4.8,
+          "review_count_business": 1050,
+          "average_stars_user": 4.9,
+          "review_count_user": 85,
+          "categories": ["Japanese", "Restaurants", "Sushi Bars"]
+        },
+        {
+          "review_text": "Disappointing for a Japanese restaurant and sushi bar. The sushi was mediocre, average fish and overcooked rice. The simple maki rolls fell apart. We ordered a hot dish, and it took forever and arrived cold. The service was clueless and slow. High prices for such low quality. I wouldn't recommend it at all if you're looking for good Japanese food or sushi.",
+          "star": 1,
+          "stars_business": 2.1,
+          "review_count_business": 410,
+          "average_stars_user": 1.6,
+          "review_count_user": 12,
+          "categories": ["Japanese", "Restaurants", "Sushi Bars"]
+        }
+       ],
+      "genuine_reviews": [
+         {
+          "review_text": "Good Japanese restaurant with a varied menu. We went for the sushi and ordered a selection of nigiri and maki. The fish was fresh and well-cut, the rice was good. We also tried some gyoza as an appetizer which were very tasty. The place is pleasant, and the service was quite fast and friendly. Good value for money for a Japanese place. We would go back to try other dishes.",
+          "star": 4,
+          "stars_business": 4.3,
+          "review_count_business": 830,
+          "average_stars_user": 4.1,
+          "review_count_user": 49,
+          "categories": ["Japanese", "Restaurants", "Sushi Bars"]
+        },
+        {
+          "review_text": "It's a rather small but cozy place. We tried the lunch menu which included miso soup, salad, a main dish (I chose chicken teriyaki), and some assorted maki rolls. Everything was correct, nothing fancy but tasty and well presented. The service was fast, ideal for a weekday lunch. The menu price was very competitive. A recommendable option for casual Japanese food.",
+          "star": 3,
+          "stars_business": 3.9,
+          "review_count_business": 600,
+          "average_stars_user": 3.7,
+          "review_count_user": 25,
+          "categories": ["Japanese", "Restaurants", "Sushi Bars"]
+        }
+       ]
+    },
+    "Auto Repair, Automotive, Oil Change Stations, Tires": {
+      "fake_reviews": [
+        {
+          "review_text": "Total automotive service! The best for your car. Perfect repairs, fast and efficient oil changes, and the best tires on the market. The staff is expert, honest, and treats you great. Unbeatable prices and guaranteed quality! They leave the car like new! My absolute trusted workshop and tire center! Don't go anywhere else! Five well-deserved stars!",
+          "star": 5,
+          "stars_business": 4.7,
+          "review_count_business": 890,
+          "average_stars_user": 4.8,
+          "review_count_user": 55,
+          "categories": ["Auto Repair", "Automotive", "Oil Change Stations", "Tires"]
+        },
+        {
+          "review_text": "A complete disaster! Botched repairs, they made my car worse. Badly done oil change, left stains. The tires they sell are terrible quality and overpriced. The staff is incompetent, rude, and only looks to make money with fake repairs. A disgrace of a place! Don't trust them! Avoid it if you care about your car! Never again!",
+          "star": 1,
+          "stars_business": 1.7,
+          "review_count_business": 410,
+          "average_stars_user": 1.5,
+          "review_count_user": 13,
+          "categories": ["Auto Repair", "Automotive", "Oil Change Stations", "Tires"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "I went for the tire change from winter to summer. They had an appointment available soon. The process was efficient, took the usual amount of time. They offered several brands and advised me well according to my budget. The final price was as agreed. While waiting, I saw they also did oil changes and quick mechanics. The facilities seemed professional. Good service for tires.",
+          "star": 4,
+          "stars_business": 4.2,
+          "review_count_business": 700,
+          "average_stars_user": 4.1,
+          "review_count_user": 30,
+          "categories": ["Auto Repair", "Automotive", "Oil Change Stations", "Tires"]
+        },
+        {
+          "review_text": "I needed an urgent oil change before a long trip. I was able to go without an appointment, and they attended me relatively quickly, although I had to wait a bit. The service was the basic oil and filter change, correct and at a standard price. They didn't try to upsell me anything else. The reception and workshop staff were friendly. For quick, basic maintenance like this, they do the job.",
+          "star": 3,
+          "stars_business": 3.7,
+          "review_count_business": 610,
+          "average_stars_user": 3.6,
+          "review_count_user": 17,
+          "categories": ["Auto Repair", "Automotive", "Oil Change Stations", "Tires"]
+        }
+      ]
+    },
+    "Event Planning & Services, Hotels, Hotels & Travel": {
+      "fake_reviews": [
+        {
+          "review_text": "The best travel and events agency! Perfect organization from start to finish! Dream hotels, unforgettable trips, and spectacular events. They take care of every single detail with incredible professionalism. The staff is charming and super efficient! They make your dreams come true! Blind trust in them for any trip or celebration! Simply the best! Five stars and more!",
+          "star": 5,
+          "stars_business": 4.9,
+          "review_count_business": 780,
+          "average_stars_user": 4.9,
+          "review_count_user": 45,
+          "categories": ["Event Planning & Services", "Hotels", "Hotels & Travel"]
+        },
+        {
+          "review_text": "A total chaos! Disastrous trip, horrible hotels that looked nothing like the photos. Poor event organization, constant failures. Incompetent and indifferent staff. Unfulfilled promises and unexpected extra charges. We felt ripped off and abandoned! They ruined our vacation/event! Don't book anything with them! Misleading advertising! Never again!",
+          "star": 1,
+          "stars_business": 1.5,
+          "review_count_business": 350,
+          "average_stars_user": 1.3,
+          "review_count_user": 7,
+          "categories": ["Event Planning & Services", "Hotels", "Hotels & Travel"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "We booked a hotel and flight package for a city break. The booking process was simple through their website. The documentation arrived on time. The chosen hotel was well-located and matched the reserved category, although it was a bit basic. The flights were on time. Overall, the service was correct and the price competitive. They delivered what was offered, efficiently but without frills.",
+          "star": 4,
+          "stars_business": 4.1,
+          "review_count_business": 610,
+          "average_stars_user": 4.0,
+          "review_count_user": 21,
+          "categories": ["Event Planning & Services", "Hotels", "Hotels & Travel"]
+        },
+        {
+          "review_text": "I attended a corporate event they organized. The general logistics (transport, hotel) were well coordinated. The assigned hotel was adequate, a functional 4-star. During the event, there were some minor scheduling glitches and minor technical issues with the sound, but they were resolved. The organization staff was friendly. An acceptable service, although with room for polishing details.",
+          "star": 3,
+          "stars_business": 3.8,
+          "review_count_business": 550,
+          "average_stars_user": 3.6,
+          "review_count_user": 13,
+          "categories": ["Event Planning & Services", "Hotels", "Hotels & Travel"]
+        }
+      ]
+    },
+    "Event Planning & Services, Hotels, Hotels & Travel, Venues & Event Spaces": {
+      "fake_reviews": [
+        {
+          "review_text": "The MOST COMPLETE and SPECTACULAR service! Flawless event organization, the best hotels, luxury travel, and absolutely magical event spaces. They have it all and do it all perfectly. Unsurpassed professionalism, creativity, and attention to detail. They turn any idea into an incredible reality! They are the elite! Trust them for any need! Unforgettable!",
+          "star": 5,
+          "stars_business": 5.0,
+          "review_count_business": 820,
+          "average_stars_user": 4.9,
+          "review_count_user": 50,
+          "categories": ["Event Planning & Services", "Hotels", "Hotels & Travel", "Venues & Event Spaces"]
+        },
+        {
+          "review_text": "A double disaster! They neither organize events well, nor are the hotels decent, nor are the spaces worthwhile. Everything poorly coordinated, old facilities, terrible service. Technical problems, dirtiness, incompetent staff. They charge a fortune for dreadful service! Not recommended at all! Run away! The worst possible experience in every sense!",
+          "star": 1,
+          "stars_business": 1.3,
+          "review_count_business": 390,
+          "average_stars_user": 1.1,
+          "review_count_user": 8,
+          "categories": ["Event Planning & Services", "Hotels", "Hotels & Travel", "Venues & Event Spaces"]
+        }
+      ],
+      "genuine_reviews": [
+        {
+          "review_text": "We organized a multi-day conference using their comprehensive services: they sourced the venue, managed accommodation for speakers and attendees, and coordinated logistics. The chosen space (a convention center) was suitable and well-equipped. The proposed hotels offered different categories and prices. The overall organization was good, although prior communication could have been smoother. A capable provider for complex events.",
+          "star": 4,
+          "stars_business": 4.4,
+          "review_count_business": 650,
+          "average_stars_user": 4.2,
+          "review_count_user": 26,
+          "categories": ["Event Planning & Services", "Hotels", "Hotels & Travel", "Venues & Event Spaces"]
+        },
+        {
+          "review_text": "We booked the space for an event and also some associated hotel rooms for out-of-town guests. The venue itself was fine, although the air conditioning was a bit erratic. The hotel booking management had some errors that we had to correct ourselves. The venue staff was friendly, but the travel/hotel management part seemed less organized. It works, but you need to keep an eye on the details.",
+          "star": 3,
+          "stars_business": 3.9,
+          "review_count_business": 580,
+          "average_stars_user": 3.7,
+          "review_count_user": 14,
+          "categories": ["Event Planning & Services", "Hotels", "Hotels & Travel", "Venues & Event Spaces"]
+        }
+      ]
+    }
+  }
