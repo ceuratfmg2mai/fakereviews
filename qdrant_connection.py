@@ -173,50 +173,74 @@ class QdrantDataIngestor:
             print("Todos los lotes fueron procesados sin errores reportados por el cliente.")
 
 
-    def verify_ingestion(self, sample_id_to_retrieve: Optional[str] = None):
+    def verify_ingestion(self, original_id_to_check: Optional[str] = None): # Renombrado para claridad
         """
-        Verifica la ingesta contando los puntos y recuperando un punto de muestra.
-        Si se proporciona sample_id_to_retrieve, intenta recuperar ese ID específico de Qdrant.
-        De lo contrario, recupera un punto aleatorio usando scroll.
+        Verifica la ingesta contando los puntos y, opcionalmente, recuperando un punto
+        específico basado en el 'review_id' original (almacenado en el payload con la clave 'review_id').
+        Si no se proporciona original_id_to_check, recupera un punto usando scroll.
         """
         print("\n--- Verificación de Datos Insertados ---")
         try:
             count_result = self.client.count(collection_name=self.collection_name)
             print(f"Número total de puntos en la colección '{self.collection_name}': {count_result.count}")
             
-            if count_result.count > 0:
-                point_to_show = None
-                if sample_id_to_retrieve:
-                    print(f"Intentando recuperar el punto con ID Qdrant: {sample_id_to_retrieve}")
-                    retrieved_points = self.client.retrieve(
-                        collection_name=self.collection_name,
-                        ids=[sample_id_to_retrieve],
-                        with_payload=True
-                    )
-                    if retrieved_points:
-                        point_to_show = retrieved_points[0]
-                    else:
-                        print(f"No se pudo recuperar el punto con ID Qdrant: {sample_id_to_retrieve}")
-                
-                if not point_to_show: # Si no se especificó ID o no se encontró, tomar uno con scroll
-                    print("Recuperando un punto de muestra usando scroll...")
-                    scroll_response = self.client.scroll(
-                        collection_name=self.collection_name, 
-                        limit=1, 
-                        with_payload=True
-                    )
-                    if scroll_response.points: # Acceder a .points
-                        point_to_show = scroll_response.points[0]
-                    else:
-                        print("No se pudieron obtener puntos de la colección para mostrar.")
-
-                if point_to_show:
-                    print("\nEjemplo de punto recuperado:")
-                    print(f"  ID de Qdrant: {point_to_show.id}")
-                    print(f"  Payload: {point_to_show.payload}")
-                else:
-                    print("No se pudo recuperar un punto de muestra.")
-            else:
+            if count_result.count == 0:
                 print("La colección está vacía, no se pueden verificar puntos.")
+                return
+
+            point_to_display = None 
+
+            if original_id_to_check:
+                print(f"Intentando recuperar la reseña con 'review_id' (en payload) igual a: '{original_id_to_check}'")
+                
+                # Asegúrate de que el campo 'review_id' en el payload esté indexado como KEYWORD
+                # para que este filtro sea eficiente. Esto se hace en setup_collection.
+                filtro_por_id_payload = models.Filter(
+                    must=[                                
+                        models.FieldCondition(
+                            key="review_id", # Esta es la CLAVE DENTRO DE TU PAYLOAD
+                            match=models.MatchValue(value=str(original_id_to_check)) # Asegurar que el valor sea string
+                        )
+                    ]
+                )
+                
+                # Usar query_points SÓLO con query_filter para recuperar por metadatos.
+                # No se pasa un vector de consulta (parámetro 'query').
+                query_response = self.client.query_points(
+                    collection_name=self.collection_name,
+                    query_filter=filtro_por_id_payload,
+                    limit=1, # Debería haber solo uno si 'review_id' en el payload es único
+                    with_payload=True
+                )
+                
+                if query_response.points:
+                    point_to_display = query_response.points[0] # query_response.points es una lista
+                    print(f"Punto encontrado por 'review_id' en payload.")
+                else:
+                    print(f"No se encontró ninguna reseña con 'review_id' (en payload) igual a: '{original_id_to_check}'.")
+            
+            else: # Si no se proporcionó un ID específico, tomar uno con scroll para verificación general
+                print("No se proporcionó un 'review_id' específico para verificar. Recuperando un punto de muestra usando scroll...")
+                scroll_response = self.client.scroll(
+                    collection_name=self.collection_name, 
+                    limit=1, 
+                    with_payload=True
+                )
+                if scroll_response.points: # Acceder a .points del objeto ScrollResponse
+                    point_to_display = scroll_response.points[0]
+                    print(f"Mostrando un punto de muestra obtenido por scroll (ID Qdrant: {point_to_display.id}).")
+                else:
+                    print("No se pudieron obtener puntos de la colección para mostrar como muestra.")
+
+            if point_to_display:
+                print("\n--- Detalles del Punto de Muestra ---")
+                print(f"  ID de Qdrant (UUID generado): {point_to_display.id}")
+                print(f"  Payload:")
+                if point_to_display.payload:
+                    for key, value in point_to_display.payload.items():
+                        print(f"    {key}: {value}")
+                else:
+                    print("    Payload vacío.")
+        
         except Exception as e:
             print(f"Error al verificar datos en Qdrant: {e}")
