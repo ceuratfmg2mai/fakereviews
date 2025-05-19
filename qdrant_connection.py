@@ -242,9 +242,9 @@ class QdrantDataIngestor:
         except Exception as e:
             print(f"Error al verificar datos en Qdrant: {e}")
         
-    def get_category_by_review_id(self, review_id: str) -> Optional[List[str]]:
+    def get_classification_by_review_id(self, review_id: str) -> Optional[List[str]]:
         """
-        Busca una reseña por el campo 'review_id' en el payload y retorna el campo 'categories'.
+        Busca una reseña por el campo 'review_id' en el payload y retorna el campo 'classification'.
 
         Args:
             review_id (str): El 'review_id' de la reseña a buscar.
