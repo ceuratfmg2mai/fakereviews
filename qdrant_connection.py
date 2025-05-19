@@ -296,40 +296,32 @@ class QdrantDataIngestor:
         except Exception as e:
             print(f"Error al eliminar la colección '{self.collection_name}': {e}")
 
-    def get_review_by_text(self, review_text: str) -> Optional[Dict[str, Any]]:
+    def get_review_by_text(self, review_text: str) -> Optional[List[Dict[str, Any]]]:
         """
-        Busca una reseña por el campo 'text' en el payload y retorna el payload completo.
+        Busca las 5 reseñas más similares por el campo 'text' usando búsqueda vectorial y retorna sus payloads.
 
         Args:
-            review_text (str): El texto exacto de la reseña a buscar.
+            review_text (str): El texto de la reseña a buscar.
 
         Returns:
-            Optional[Dict[str, Any]]: El payload de la reseña encontrada, o None si no se encuentra.
+            Optional[List[Dict[str, Any]]]: Lista de payloads de las reseñas encontradas, o None si no se encuentra ninguna.
         """
         try:
-            filtro_por_texto = models.Filter(
-                must=[
-                    models.FieldCondition(
-                        key="text",
-                        match=models.MatchValue(value=review_text)
-                    )
-                ]
-            )
-
+            vector_de_consulta = self.embedding_model.embed_query(review_text)
+            
             query_response = self.client.query_points(
                 collection_name=self.collection_name,
-                query_filter=filtro_por_texto,
-                limit=1,
+                query=vector_de_consulta,
+                limit=5,
                 with_payload=True
             )
 
             if query_response.points:
-                point = query_response.points[0]
-                return point.payload
+                return [point.payload for point in query_response.points if point.payload]
             else:
-                print(f"No se encontró ninguna reseña con el texto especificado.")
+                print(f"No se encontraron reseñas similares al texto especificado.")
                 return None
 
         except Exception as e:
-            print(f"Error al buscar la reseña por texto: {e}")
+            print(f"Error al buscar reseñas por texto: {e}")
             return None
