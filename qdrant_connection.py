@@ -59,7 +59,7 @@ class QdrantDataIngestor:
                     vectors_config=models.VectorParams(size=self.vector_size, distance=models.Distance.COSINE)
                 )
                 print(f"Colección '{self.collection_name}' creada.")
-            else: # Otro tipo de error (ej. conexión, autenticación)
+            else: # Otro tipo de error 
                 print(f"Error al verificar la colección '{self.collection_name}': {e}")
                 raise
 
@@ -143,7 +143,6 @@ class QdrantDataIngestor:
         print(f"\nIniciando ingestión de {total_rows} filas en la colección '{self.collection_name}'...")
 
         for i, row_dict in enumerate(df.iter_rows(named=True)):
-            # start_time_row = time.time() # Descomentar para timing por fila
             
             point = self._process_row(row_dict)
             if point:
@@ -173,7 +172,7 @@ class QdrantDataIngestor:
             print("Todos los lotes fueron procesados sin errores reportados por el cliente.")
 
 
-    def verify_ingestion(self, original_id_to_check: Optional[str] = None): # Renombrado para claridad
+    def verify_ingestion(self, original_id_to_check: Optional[str] = None): 
         """
         Verifica la ingesta contando los puntos y, opcionalmente, recuperando un punto
         específico basado en el 'review_id' original (almacenado en el payload con la clave 'review_id').
@@ -193,8 +192,7 @@ class QdrantDataIngestor:
             if original_id_to_check:
                 print(f"Intentando recuperar la reseña con 'review_id' (en payload) igual a: '{original_id_to_check}'")
                 
-                # Asegúrate de que el campo 'review_id' en el payload esté indexado como KEYWORD
-                # para que este filtro sea eficiente. Esto se hace en setup_collection.
+                # Crear un filtro para buscar por 'review_id' en el payload
                 filtro_por_id_payload = models.Filter(
                     must=[                                
                         models.FieldCondition(
@@ -204,8 +202,7 @@ class QdrantDataIngestor:
                     ]
                 )
                 
-                # Usar query_points SÓLO con query_filter para recuperar por metadatos.
-                # No se pasa un vector de consulta (parámetro 'query').
+                # Realizar la consulta
                 query_response = self.client.query_points(
                     collection_name=self.collection_name,
                     query_filter=filtro_por_id_payload,
@@ -244,3 +241,57 @@ class QdrantDataIngestor:
         
         except Exception as e:
             print(f"Error al verificar datos en Qdrant: {e}")
+        
+    def get_category_by_review_id(self, review_id: str) -> Optional[List[str]]:
+        """
+        Busca una reseña por el campo 'review_id' en el payload y retorna el campo 'categories'.
+
+        Args:
+            review_id (str): El 'review_id' de la reseña a buscar.
+
+        Returns:
+            Optional[List[str]]: La lista de categorías asociadas a la reseña, o None si no se encuentra.
+        """
+        try:
+            # Crear un filtro para buscar por 'review_id' en el payload
+            filtro_por_id_payload = models.Filter(
+                must=[
+                    models.FieldCondition(
+                        key="review_id",
+                        match=models.MatchValue(value=str(review_id))
+                    )
+                ]
+            )
+
+            # Realizar la consulta
+            query_response = self.client.query_points(
+                collection_name=self.collection_name,
+                query_filter=filtro_por_id_payload,
+                limit=1,
+                with_payload=True
+            )
+
+            if query_response.points:
+                point = query_response.points[0]
+                if point.payload and "classification" in point.payload:
+                    return point.payload["classification"]
+                else:
+                    print(f"La reseña con 'review_id' '{review_id}' no tiene el campo 'classification' en el payload.")
+                    return None
+            else:
+                print(f"No se encontró ninguna reseña con 'review_id' igual a: '{review_id}'.")
+                return None
+
+        except Exception as e:
+            print(f"Error al buscar la reseña con 'review_id' '{review_id}': {e}")
+            return None
+        
+    def delete_collection(self):
+        """
+        Elimina la colección de Qdrant.
+        """
+        try:
+            self.client.delete_collection(collection_name=self.collection_name)
+            print(f"Colección '{self.collection_name}' eliminada.")
+        except Exception as e:
+            print(f"Error al eliminar la colección '{self.collection_name}': {e}")
