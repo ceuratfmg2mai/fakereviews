@@ -295,3 +295,41 @@ class QdrantDataIngestor:
             print(f"Colección '{self.collection_name}' eliminada.")
         except Exception as e:
             print(f"Error al eliminar la colección '{self.collection_name}': {e}")
+
+    def get_review_by_text(self, review_text: str) -> Optional[Dict[str, Any]]:
+        """
+        Busca una reseña por el campo 'text' en el payload y retorna el payload completo.
+
+        Args:
+            review_text (str): El texto exacto de la reseña a buscar.
+
+        Returns:
+            Optional[Dict[str, Any]]: El payload de la reseña encontrada, o None si no se encuentra.
+        """
+        try:
+            filtro_por_texto = models.Filter(
+                must=[
+                    models.FieldCondition(
+                        key="text",
+                        match=models.MatchValue(value=review_text)
+                    )
+                ]
+            )
+
+            query_response = self.client.query_points(
+                collection_name=self.collection_name,
+                query_filter=filtro_por_texto,
+                limit=1,
+                with_payload=True
+            )
+
+            if query_response.points:
+                point = query_response.points[0]
+                return point.payload
+            else:
+                print(f"No se encontró ninguna reseña con el texto especificado.")
+                return None
+
+        except Exception as e:
+            print(f"Error al buscar la reseña por texto: {e}")
+            return None
