@@ -36,7 +36,6 @@ class ReviewFinder:
         # Crea una copia o un nuevo diccionario para asegurar que todos los valores sean strings
         # y manejar los nulos de forma segura para .format()
         data_for_format = {}
-        final_prompt = None
         separator = ", "
         for key, value in row_data.items():
             if key == 'text':
@@ -55,7 +54,6 @@ class ReviewFinder:
                 data_for_format['review_test'] = value     
 
         try:
-            print(data_for_format)
             return base_prompt_template.format(**data_for_format)
         except KeyError as e:
             # Error útil si falta un placeholder en los datos de la fila
