@@ -45,4 +45,4 @@ class ReviewFinder:
             cool=random_row.get("cool", ""),
             fans=random_row.get("fans", "")
         )
-        return prompt
+        return prompt, random_row.get("review_id", "")
