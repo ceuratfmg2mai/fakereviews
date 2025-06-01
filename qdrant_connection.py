@@ -298,32 +298,69 @@ class QdrantDataIngestor:
         except Exception as e:
             print(f"Error al eliminar la colección '{self.collection_name}': {e}")
 
-    def get_review_by_text(self, review_text: str) -> Optional[List[Dict[str, Any]]]:
+    def get_review_by_text(self, review_text: str) -> Optional[Dict[str, List[Dict[str, Any]]]]:
         """
         Busca las 5 reseñas más similares por el campo 'text' usando búsqueda vectorial y retorna sus payloads.
+        Además, retorna 3 reseñas del Cluster 0 y 3 del Cluster 1.
 
         Args:
             review_text (str): El texto de la reseña a buscar.
 
         Returns:
-            Optional[List[Dict[str, Any]]]: Lista de payloads de las reseñas encontradas, o None si no se encuentra ninguna.
+            Optional[Dict[str, List[Dict[str, Any]]]]: Diccionario con listas de payloads de las reseñas encontradas.
         """
         try:
             vector_de_consulta = self.embedding_model.embed_query(review_text)
             
+            # Búsqueda vectorial de las 5 más similares
             query_response = self.client.query_points(
                 collection_name=self.collection_name,
                 query=vector_de_consulta,
                 limit=5,
                 with_payload=True
             )
+            similares = [point.payload for point in query_response.points if point.payload] if query_response.points else []
 
-            if query_response.points:
-                return [point.payload for point in query_response.points if point.payload]
-            else:
-                print(f"No se encontraron reseñas similares al texto especificado.")
-                return None
+            # Búsqueda por Cluster 0
+            filtro_cluster_0 = models.Filter(
+                must=[
+                    models.FieldCondition(
+                        key="Cluster",
+                        match=models.MatchValue(value=0)
+                    )
+                ]
+            )
+            cluster_0_response = self.client.query_points(
+                collection_name=self.collection_name,
+                query_filter=filtro_cluster_0,
+                limit=3,
+                with_payload=True
+            )
+            cluster_0 = [point.payload for point in cluster_0_response.points if point.payload] if cluster_0_response.points else []
+
+            # Búsqueda por Cluster 1
+            filtro_cluster_1 = models.Filter(
+                must=[
+                    models.FieldCondition(
+                        key="Cluster",
+                        match=models.MatchValue(value=1)
+                    )
+                ]
+            )
+            cluster_1_response = self.client.query_points(
+                collection_name=self.collection_name,
+                query_filter=filtro_cluster_1,
+                limit=3,
+                with_payload=True
+            )
+            cluster_1 = [point.payload for point in cluster_1_response.points if point.payload] if cluster_1_response.points else []
+
+            return {
+                "similares": similares,
+                "cluster_0": cluster_0,
+                "cluster_1": cluster_1
+            }
 
         except Exception as e:
-            print(f"Error al buscar reseñas por texto: {e}")
+            print(f"Error al buscar reseñas por texto y cluster: {e}")
             return None
