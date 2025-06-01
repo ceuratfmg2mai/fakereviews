@@ -86,12 +86,12 @@ class QdrantDataIngestor:
             text_to_embed = row_dict['text']
             
             # Procesamiento especial de las categorías
-            categories_str = row_dict.get("categories") # Usar .get() para manejo seguro de claves faltantes
-            processed_categories = []
-            if isinstance(categories_str, str):
-                processed_categories = [cat.strip() for cat in categories_str.split(',')]
-            elif isinstance(categories_str, list):
-                processed_categories = [str(cat).strip() for cat in categories_str]
+            # categories_str = row_dict.get("categories") # Usar .get() para manejo seguro de claves faltantes
+            # processed_categories = []
+            # if isinstance(categories_str, str):
+            #     processed_categories = [cat.strip() for cat in categories_str.split(',')]
+            # elif isinstance(categories_str, list):
+            #     processed_categories = [str(cat).strip() for cat in categories_str]
         
 
             # El payload dinámicamente a partir de las columnas del DataFrame
