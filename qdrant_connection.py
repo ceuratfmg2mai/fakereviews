@@ -298,29 +298,17 @@ class QdrantDataIngestor:
         except Exception as e:
             print(f"Error al eliminar la colección '{self.collection_name}': {e}")
 
-    def get_review_by_text(self, review_text: str) -> Optional[Dict[str, List[Dict[str, Any]]]]:
+    def get_review_by_text(self, review_text: str) -> Optional[List[Dict[str, Any]]]:
         """
-        Busca las 5 reseñas más similares por el campo 'text' usando búsqueda vectorial y retorna sus payloads.
-        Además, retorna 3 reseñas del Cluster 0 y 3 del Cluster 1.
+        Busca 3 reseñas del Cluster 0 y 3 del Cluster 1 (no segmentadas) y retorna una lista de sus payloads.
 
         Args:
-            review_text (str): El texto de la reseña a buscar.
+            review_text (str): El texto de la reseña a buscar (no se usa para filtrar en esta versión).
 
         Returns:
-            Optional[Dict[str, List[Dict[str, Any]]]]: Diccionario con listas de payloads de las reseñas encontradas.
+            Optional[List[Dict[str, Any]]]: Lista de payloads de las reseñas encontradas.
         """
         try:
-            vector_de_consulta = self.embedding_model.embed_query(review_text)
-            
-            # Búsqueda vectorial de las 5 más similares
-            query_response = self.client.query_points(
-                collection_name=self.collection_name,
-                query=vector_de_consulta,
-                limit=5,
-                with_payload=True
-            )
-            similares = [point.payload for point in query_response.points if point.payload] if query_response.points else []
-
             # Búsqueda por Cluster 0
             filtro_cluster_0 = models.Filter(
                 must=[
@@ -355,12 +343,9 @@ class QdrantDataIngestor:
             )
             cluster_1 = [point.payload for point in cluster_1_response.points if point.payload] if cluster_1_response.points else []
 
-            return {
-                "similares": similares,
-                "cluster_0": cluster_0,
-                "cluster_1": cluster_1
-            }
+            # Unir ambas listas en una sola
+            return cluster_0 + cluster_1
 
         except Exception as e:
-            print(f"Error al buscar reseñas por texto y cluster: {e}")
+            print(f"Error al buscar reseñas por cluster: {e}")
             return None
