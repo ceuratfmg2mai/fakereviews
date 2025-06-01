@@ -364,3 +364,32 @@ class QdrantDataIngestor:
         except Exception as e:
             print(f"Error al buscar reseñas por cluster: {e}")
             return None
+
+    def build_prompts_from_reviews(self, reviews_dict: Dict[str, list], template: str) -> list:
+        """
+        Genera una lista de prompts usando la plantilla y la salida de get_review_by_text.
+
+        Args:
+            reviews_dict (dict): Diccionario con claves 'Fake' y 'Genuine', cada una con una lista de reseñas.
+            template (str): Plantilla base para el prompt.
+
+        Returns:
+            list: Lista de prompts generados.
+        """
+        prompts = []
+        for review_type, reviews in reviews_dict.items():
+            for review in reviews:
+                prompt = template.format(
+                    type=review_type,
+                    review_text=review.get("review", ""),
+                    review_count_user=review.get("review_count_user", ""),
+                    average_stars_user=review.get("average_stars_user", ""),
+                    yelping_days=review.get("yelping_days", ""),
+                    useful=review.get("useful", ""),
+                    funny=review.get("funny", ""),
+                    cool=review.get("cool", ""),
+                    fans=review.get("fans", ""),
+                    Cluster=review.get("Cluster", "")
+                )
+                prompts.append(prompt)
+        return prompts
