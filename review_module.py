@@ -5,7 +5,7 @@ class ReviewFinder:
     Clase para crear el prompt de las reseñas test.
     """
 
-    def build_test_prompt_from(self, row: Dict[str, Any], prompt_template: str) -> str:
+    def build_test_prompt_from(row: Dict[str, Any], prompt_template: str) -> str:
         """
         Construye un prompt a partir de una fila y una plantilla.
 
