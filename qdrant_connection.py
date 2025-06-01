@@ -356,7 +356,10 @@ class QdrantDataIngestor:
             cluster_1 = [point.payload for point in cluster_1_response.points if point.payload] if cluster_1_response.points else []
 
             # Unir ambas listas en una sola
-            return cluster_0 + cluster_1
+            return {
+                    "Fake": cluster_0,
+                    "Genuine": cluster_1
+                }
 
         except Exception as e:
             print(f"Error al buscar reseñas por cluster: {e}")
