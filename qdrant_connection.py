@@ -315,12 +315,15 @@ class QdrantDataIngestor:
             Optional[List[Dict[str, Any]]]: Lista de payloads de las reseñas encontradas.
         """
         try:
-            # Búsqueda por Cluster 0
+            # Búsqueda por Cluster 0 (usando rango float)
             filtro_cluster_0 = models.Filter(
                 must=[
                     models.FieldCondition(
                         key="Cluster",
-                        match=models.MatchValue(value=0)
+                        range=models.Range(
+                            gte=0.0,
+                            lte=0.0
+                        )
                     )
                 ]
             )
@@ -332,12 +335,15 @@ class QdrantDataIngestor:
             )
             cluster_0 = [point.payload for point in cluster_0_response.points if point.payload] if cluster_0_response.points else []
 
-            # Búsqueda por Cluster 1
+            # Búsqueda por Cluster 1 (usando rango float)
             filtro_cluster_1 = models.Filter(
                 must=[
                     models.FieldCondition(
                         key="Cluster",
-                        match=models.MatchValue(value=1)
+                        range=models.Range(
+                            gte=1.0,
+                            lte=1.0
+                        )
                     )
                 ]
             )
