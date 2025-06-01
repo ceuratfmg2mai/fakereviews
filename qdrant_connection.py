@@ -275,10 +275,10 @@ class QdrantDataIngestor:
 
             if query_response.points:
                 point = query_response.points[0]
-                if point.payload and "classification" in point.payload:
-                    return point.payload["classification"]
+                if point.payload and "Cluster" in point.payload:
+                    return point.payload["Cluster"]
                 else:
-                    print(f"La reseña con 'review_id' '{review_id}' no tiene el campo 'classification' en el payload.")
+                    print(f"La reseña con 'review_id' '{review_id}' no tiene el campo 'Cluster' en el payload.")
                     return None
             else:
                 print(f"No se encontró ninguna reseña con 'review_id' igual a: '{review_id}'.")
