@@ -5,7 +5,7 @@ class ReviewFinder:
     Clase para crear el prompt de las reseñas test.
     """
 
-    def build_test_prompt_from(row: Dict[str, Any], prompt_template: str) -> str:
+    def build_test_prompt_from(self, row: Dict[str, Any], prompt_template: str) -> str:
         """
         Construye un prompt a partir de una fila y una plantilla.
 
@@ -28,7 +28,7 @@ class ReviewFinder:
         )
         return prompt
     
-    def format_principal_prompt_for(row_data: dict, ingestor:QdrantDataIngestor, prompt_template_example: str, base_prompt_template: str) -> str:
+    def format_principal_prompt_for(self, row_data: dict, ingestor:QdrantDataIngestor, prompt_template_example: str, base_prompt_template: str) -> str:
         """
         Toma un diccionario (row_data) con los datos de la fila y rellena la plantilla.
         Maneja valores nulos convirtiéndolos a string (p.ej., 'None').
