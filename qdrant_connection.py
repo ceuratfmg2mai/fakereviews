@@ -92,20 +92,22 @@ class QdrantDataIngestor:
                 processed_categories = [cat.strip() for cat in categories_str.split(',')]
             elif isinstance(categories_str, list):
                 processed_categories = [str(cat).strip() for cat in categories_str]
-            
+        
+
             # El payload dinámicamente a partir de las columnas del DataFrame
             payload = {
                 "review_id": row_dict['review_id'],
                 "review": text_to_embed, # Texto original de la reseña
                 "user_id": row_dict['user_id'],
                 "business_id": row_dict['business_id'],
-                "stars": int(row_dict['stars']),
-                "categories": processed_categories,
-                "review_count_business": int(row_dict['review_count_business']),
-                "stars_business": float(row_dict['stars_business']),
                 "review_count_user": int(row_dict['review_count_user']),
                 "average_stars_user": float(row_dict['average_stars_user']),
-                "classification": row_dict['classification']
+                "yelping_days": float(row_dict['yelping_days']),
+                "useful": float(row_dict['useful']),
+                "funny": float(row_dict['funny']),
+                "cool": float(row_dict['cool']),
+                "fans": float(row_dict['fans']),
+                "Cluster": float(row_dict['Cluster'])
             }
             
             # Generar embedding
