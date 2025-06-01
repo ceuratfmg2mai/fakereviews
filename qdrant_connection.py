@@ -51,6 +51,12 @@ class QdrantDataIngestor:
         try:
             self.client.get_collection(collection_name=self.collection_name)
             print(f"La colección '{self.collection_name}' ya existe.")
+            self.client.create_payload_index(
+                collection_name=self.collection_name,
+                field_name="Cluster",
+                field_schema=models.PayloadSchemaType.INTEGER
+            )
+            print("Índice de payload creado/verificado para el campo: Cluster")
         except Exception as e: # Asumimos que si falla es porque no existe o hay error de conexión
             if "not found" in str(e).lower() or "404" in str(e) or "status_code=404" in str(e):
                 print(f"Creando colección '{self.collection_name}' con tamaño de vector {self.vector_size}...")
