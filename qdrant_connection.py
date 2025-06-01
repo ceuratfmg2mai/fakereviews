@@ -99,7 +99,7 @@ class QdrantDataIngestor:
             # elif isinstance(categories_str, list):
             #     processed_categories = [str(cat).strip() for cat in categories_str]
         
-            print('Procesando fila con review_id:', row_dict.get('review_id', 'DESCONOCIDO'))
+            
             # El payload dinámicamente a partir de las columnas del DataFrame
             payload = {
                 "review_id": row_dict['review_id'],
