@@ -113,7 +113,7 @@ class QdrantDataIngestor:
                 "funny": float(row_dict['funny']),
                 "cool": float(row_dict['cool']),
                 "fans": float(row_dict['fans']),
-                "Cluster": float(row_dict['Cluster'])
+                "Cluster": int(row_dict['Cluster'])
             }
             
             # Generar embedding
