@@ -330,7 +330,7 @@ class QdrantDataIngestor:
             cluster_0_response = self.client.query_points(
                 collection_name=self.collection_name,
                 query_filter=filtro_cluster_0,
-                limit=3,
+                limit=5,
                 with_payload=True
             )
             cluster_0 = [point.payload for point in cluster_0_response.points if point.payload] if cluster_0_response.points else []
@@ -350,7 +350,7 @@ class QdrantDataIngestor:
             cluster_1_response = self.client.query_points(
                 collection_name=self.collection_name,
                 query_filter=filtro_cluster_1,
-                limit=3,
+                limit=5,
                 with_payload=True
             )
             cluster_1 = [point.payload for point in cluster_1_response.points if point.payload] if cluster_1_response.points else []
